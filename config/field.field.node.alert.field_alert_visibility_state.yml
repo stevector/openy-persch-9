@@ -1,0 +1,25 @@
+uuid: e217dba3-d16f-4496-991c-455cb0710449
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alert_visibility_state
+    - node.type.alert
+  module:
+    - options
+_core:
+  default_config_hash: _uYIaxO5pXFVzsAmVnh0TYJTsgDJsp4kowEqR9k9LgQ
+id: node.alert.field_alert_visibility_state
+field_name: field_alert_visibility_state
+entity_type: node
+bundle: alert
+label: 'Alert visibility state'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: include
+default_value_callback: ''
+settings: {  }
+field_type: list_string

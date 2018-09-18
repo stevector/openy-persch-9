@@ -1,0 +1,12 @@
+uuid: c3ad1c35-6348-4a39-a316-c1dbcee8021f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: oZ-k1KsZ4VMMmsJ_jNiXGUlc1hKYpUDxg58GWlCGaKY
+id: media.node_program_subcategory_teaser
+label: 'Node Program subcategory teaser'
+targetEntityType: media
+cache: true

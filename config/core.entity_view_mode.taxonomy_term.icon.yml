@@ -1,0 +1,12 @@
+uuid: dc5b3147-85b0-455a-b8e9-8e90389bfc62
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 8V4tX2gL-tvADMLCimpTmftIbBz7pqb09mAhlltf8OM
+id: taxonomy_term.icon
+label: Icon
+targetEntityType: taxonomy_term
+cache: true

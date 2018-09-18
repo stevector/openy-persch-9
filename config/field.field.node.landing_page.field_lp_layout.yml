@@ -1,0 +1,23 @@
+uuid: 952b4e2f-399d-4454-8542-9de94112679e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lp_layout
+    - node.type.landing_page
+  module:
+    - options
+_core:
+  default_config_hash: GkyTLnBBE4IdwkgH4p1wDYEXjOaQ-LaYZ-FcvV7THDw
+id: node.landing_page.field_lp_layout
+field_name: field_lp_layout
+entity_type: node
+bundle: landing_page
+label: Layout
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

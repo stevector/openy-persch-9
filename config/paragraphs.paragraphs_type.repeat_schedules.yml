@@ -1,0 +1,11 @@
+uuid: 178853c7-959c-4a71-9057-f50879733d52
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hq1SfCli1kz4kIelFDT7CoALwq9x5w9XwdbpdaoMSbo
+id: repeat_schedules
+label: 'Repeat Schedules'
+icon_uuid: null
+description: 'Pagraph to display Program Schedules'
+behavior_plugins: {  }

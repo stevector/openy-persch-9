@@ -1,0 +1,36 @@
+uuid: 1d3e39d9-d8f3-443e-a79c-3a5ca1ef7c77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.all_amenities.field_field_prgf_amnts_view
+    - field.field.paragraph.all_amenities.field_prgf_title
+    - paragraphs.paragraphs_type.all_amenities
+  module:
+    - content_moderation
+_core:
+  default_config_hash: 9xRP0PaeFT1BR-Tx_xANfKSfi5RWZ5wlPGUvR96KYSo
+id: paragraph.all_amenities.default
+targetEntityType: paragraph
+bundle: all_amenities
+mode: default
+content:
+  field_prgf_title:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: 'All amenities list'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_field_prgf_amnts_view: true
+  status: true
+  uid: true

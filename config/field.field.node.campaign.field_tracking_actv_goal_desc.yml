@@ -1,0 +1,23 @@
+uuid: c2c556dc-1422-485a-87a7-1a37e4f02eff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tracking_actv_goal_desc
+    - node.type.campaign
+  module:
+    - text
+_core:
+  default_config_hash: eJBYagcToPjokL56ABFwTr4kgHfddVduIXI6yxbe1wU
+id: node.campaign.field_tracking_actv_goal_desc
+field_name: field_tracking_actv_goal_desc
+entity_type: node
+bundle: campaign
+label: 'Tracking Activity Goal description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

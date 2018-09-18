@@ -1,0 +1,12 @@
+uuid: 7178f9fa-02ee-402d-a972-39cc980115be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ls4av89adjKk0cGVJ_05fjAXVGBrHCei0IFQb7X-x_k
+id: node.calc_preview
+label: 'Calculator preview'
+targetEntityType: node
+cache: true

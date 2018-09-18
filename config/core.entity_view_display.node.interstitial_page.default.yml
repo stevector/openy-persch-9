@@ -1,0 +1,43 @@
+uuid: 4abdeeb4-b695-4e6f-85f3-044aa605a979
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.interstitial_page.body
+    - field.field.node.interstitial_page.field_close_interaction
+    - field.field.node.interstitial_page.field_close_time
+    - field.field.node.interstitial_page.field_dialog_title
+    - field.field.node.interstitial_page.field_show_times
+    - node.type.interstitial_page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: BpOsWbvXZQmJsM9-Gd_gl2fjAdmKq109UAPCHib6iWc
+id: node.interstitial_page.default
+targetEntityType: node
+bundle: interstitial_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_dialog_title:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  addthis: true
+  field_close_interaction: true
+  field_close_time: true
+  field_show_times: true
+  langcode: true
+  links: true

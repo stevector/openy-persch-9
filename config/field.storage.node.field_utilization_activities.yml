@@ -1,0 +1,29 @@
+uuid: fae0f5d6-7396-40b0-87c2-10773e4d9e4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: 3jZFBSuM7brd_9GYin6b7yo-ovXUqQMMTPJK_gQXloE
+id: node.field_utilization_activities
+field_name: field_utilization_activities
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: tracking
+      label: 'Track activity'
+    -
+      value: visiting
+      label: 'Visit branch'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

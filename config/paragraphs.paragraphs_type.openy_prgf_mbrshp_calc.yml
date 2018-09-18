@@ -1,0 +1,11 @@
+uuid: 19814e22-d34a-493c-b0f4-d5e0a3b43171
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ieKiuP6U734oDG3QfX1WVIi0U-qOW9_v_yMZFhDw0XI
+id: openy_prgf_mbrshp_calc
+label: 'Membership calculator'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

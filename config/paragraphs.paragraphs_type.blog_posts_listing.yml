@@ -1,0 +1,11 @@
+uuid: 27f1b726-a94c-46d3-8efe-ad56b26123aa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DmbvMwgCeCi3XeR9Spkg17e1AioK0zadIh8spyFnFpY
+id: blog_posts_listing
+label: 'Blog Posts Listing'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

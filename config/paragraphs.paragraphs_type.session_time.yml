@@ -1,0 +1,11 @@
+uuid: 438060da-fc1c-4f4f-af4f-b6dd86e34981
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gaPJthyScqDGhJlI5fpzmt_PId2p0UTZc4A2hGHkvKA
+id: session_time
+label: 'Session Time'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

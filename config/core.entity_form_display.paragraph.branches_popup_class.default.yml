@@ -1,0 +1,27 @@
+uuid: 0b1a011e-a49a-4254-b0ed-8beb079e7173
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.branches_popup_class.field_prgf_block
+    - paragraphs.paragraphs_type.branches_popup_class
+  module:
+    - content_moderation
+_core:
+  default_config_hash: m20aLO2mf1IR_LPuewpnHZ1lWBMtNL9aJ93bFyEW3dw
+id: paragraph.branches_popup_class.default
+targetEntityType: paragraph
+bundle: branches_popup_class
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

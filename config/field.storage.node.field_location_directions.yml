@@ -1,0 +1,21 @@
+uuid: c198cd7a-45dd-4364-8c43-296ed86674c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: tQHiRuTK1CTEX0ePEZXABcPC5_IrFZZuvH2XqD9XmQU
+id: node.field_location_directions
+field_name: field_location_directions
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

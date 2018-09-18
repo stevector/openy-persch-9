@@ -1,0 +1,21 @@
+uuid: 0bfbfd11-514b-4166-9bf9-d2f2d2beaa58
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wDMCae-DWJ6klaufV8o3TOUM8VKbKJMk9jS43q_Cm4s
+id: node.field_category_program
+field_name: field_category_program
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

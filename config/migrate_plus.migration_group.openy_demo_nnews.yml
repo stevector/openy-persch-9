@@ -1,0 +1,14 @@
+uuid: d6c53b82-efe3-4c89-be3e-edd5eb471f4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nnews
+_core:
+  default_config_hash: I7oS2cEivjiVFU10ZD-RruWXiDAKemw1V-jWE3o6I5E
+id: openy_demo_nnews
+label: News
+description: 'Imports news demo content.'
+source_type: null
+module: openy_demo_nnews
+shared_configuration: null

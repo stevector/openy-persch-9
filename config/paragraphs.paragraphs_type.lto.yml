@@ -1,0 +1,11 @@
+uuid: 8f070319-012e-4100-bebf-643fd9ea1988
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5ekovJTvZU-10U2Sx_n_cfsGv4bPoNV7HPEv46Eovo
+id: lto
+label: 'Limited Time Offer'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

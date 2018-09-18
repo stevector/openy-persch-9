@@ -1,0 +1,21 @@
+uuid: 4da92dce-f5dc-463f-aaca-b073355625db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_prize_description
+    - paragraphs.paragraphs_type.campaign_prizes
+_core:
+  default_config_hash: PQb72JGMD2zeU3qWFDApySqeDyezMaD5i-7ThxVpK3U
+id: paragraph.campaign_prizes.field_prgf_prize_description
+field_name: field_prgf_prize_description
+entity_type: paragraph
+bundle: campaign_prizes
+label: Description
+description: 'Description of the prize. Like "towel" or "free pass".'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

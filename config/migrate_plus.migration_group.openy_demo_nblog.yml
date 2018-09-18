@@ -1,0 +1,14 @@
+uuid: 7b4d3d2d-3c81-4d6c-ac13-039f095884a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nblog
+_core:
+  default_config_hash: O6d2_WREtakHA_ea-fpWxEJBrR3m98uMHdLJt3TDIZc
+id: openy_demo_nblog
+label: Blog
+description: 'Imports blog demo content.'
+source_type: null
+module: openy_demo_nblog
+shared_configuration: null

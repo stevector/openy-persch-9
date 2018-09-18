@@ -1,0 +1,26 @@
+uuid: 306bf679-cc1d-4f73-9b0e-2c9cfc573c0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_register_form_text
+    - node.type.campaign
+  module:
+    - text
+_core:
+  default_config_hash: Svs1Zltzinb8fV8jNrCwJfgSBADScTRS_MTuxw7uf5k
+id: node.campaign.field_register_form_text
+field_name: field_register_form_text
+entity_type: node
+bundle: campaign
+label: 'Register form: Member ID text'
+description: '"Where can I find my Member ID?" link text.'
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Please find your member ID below the barcode on your Membership Card.</p>\r\n<p class=\"small\">Please note it might be on the front of the card on older membership cards.</p>\r\n"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

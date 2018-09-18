@@ -1,0 +1,33 @@
+uuid: 17017ae8-ff4f-4000-8610-d22d87448ba6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.program_registration.field_prgf_reg_block
+    - paragraphs.paragraphs_type.program_registration
+  module:
+    - content_moderation
+    - plugin
+_core:
+  default_config_hash: 3usn9DMm7h8KAXvtUh5Onx_qbK-fBC7bOLFj4mAwJK8
+id: paragraph.program_registration.default
+targetEntityType: paragraph
+bundle: program_registration
+mode: default
+content:
+  field_prgf_reg_block:
+    type: 'plugin_selector:plugin_select_list'
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

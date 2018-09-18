@@ -1,0 +1,11 @@
+uuid: 6b73cf59-e6af-4f0c-95c0-588128ae2a1b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-gCqg2xgWbuDhC9EAZnHmjHNb7SEgI2bs5h59iRI9Do'
+id: classes_listing_filters
+label: 'Classes Listing Filters'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

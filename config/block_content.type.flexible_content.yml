@@ -1,0 +1,10 @@
+uuid: 6d116cb2-3c16-4696-a974-1ba06ca0b2ad
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 57yAFpifULW5g4XW3HjdPcQ-k665Yy7Bm4GZG_jjl6k
+id: flexible_content
+label: 'Flexible Content'
+revision: 0
+description: 'Flexible content block with reference to node'

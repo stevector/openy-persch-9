@@ -1,0 +1,13 @@
+uuid: 1f823de5-b35b-4e3d-8685-9b99dc5fa13e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.interstitial_page
+_core:
+  default_config_hash: n127RntzBe2HjxIP49agw935QIefiuV5NOu8Y2wdLhI
+id: node.interstitial_page
+target_entity_type_id: node
+target_bundle: interstitial_page
+default_langcode: site_default
+language_alterable: false

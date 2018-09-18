@@ -1,0 +1,24 @@
+uuid: 8fc7ccf6-febb-417c-aa78-606c06579e73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_game.field_prgf_campaign_game
+    - paragraphs.paragraphs_type.campaign_game
+  module:
+    - plugin
+_core:
+  default_config_hash: IpqkRRzBn1IA0k1wUugIOn3VxWJc5ds4jJUBAOpyxTA
+id: paragraph.campaign_game.default
+targetEntityType: paragraph
+bundle: campaign_game
+mode: default
+content:
+  field_prgf_campaign_game:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: plugin_block_built
+    region: content
+hidden: {  }

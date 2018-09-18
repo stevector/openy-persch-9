@@ -1,0 +1,23 @@
+uuid: e30bb4d6-9695-4bd4-95a6-25da1a674178
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: enE4zhIqqN2gOTjgTOdUhhywKndVexEhD2AeT8csNjg
+id: node.field_campaign_palette
+field_name: field_campaign_palette
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

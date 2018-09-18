@@ -1,0 +1,30 @@
+uuid: 7fbc4bd6-afe5-41bd-8a21-82adaecc775d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category_image
+    - media_entity.bundle.image
+    - node.type.program_subcategory
+_core:
+  default_config_hash: fwjhQw92dW2B5k_Uj97CioTJDwD2t0q0E6byq6MJkBQ
+id: node.program_subcategory.field_category_image
+field_name: field_category_image
+entity_type: node
+bundle: program_subcategory
+label: Image
+description: 'A image field, for uploading the category image.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

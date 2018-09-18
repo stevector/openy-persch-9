@@ -1,0 +1,14 @@
+uuid: 9fe91647-ddce-4591-b050-e79c522c6ec0
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nclass
+_core:
+  default_config_hash: XmQ2GNeuVWDFeAUx2Bk6xQNJt_sDGHL2_ZlSwol0mk0
+id: openy_demo_nclass
+label: Class
+description: 'Imports class demo content.'
+source_type: null
+module: openy_demo_nclass
+shared_configuration: null

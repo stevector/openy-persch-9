@@ -1,0 +1,33 @@
+uuid: c95c74af-bf9e-4f86-b37b-efce0e9103ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_close_time
+    - node.type.interstitial_page
+  module:
+    - datalayer
+third_party_settings:
+  datalayer:
+    expose: 0
+    label: field_close_time
+_core:
+  default_config_hash: ZAD7P6gqeNemvKSnSzV85xgfkFuZr3ArjW9zgEIwyjk
+id: node.interstitial_page.field_close_time
+field_name: field_close_time
+entity_type: node
+bundle: interstitial_page
+label: 'Close by time'
+description: 'Interstitial Block will be closed after XX seconds without any additional actions.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 10
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: After
+  suffix: seconds
+field_type: integer

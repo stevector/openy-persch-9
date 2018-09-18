@@ -1,0 +1,23 @@
+uuid: f46b94ab-9312-4b0f-a9fb-9eb04ac3b362
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: cQmVxj-mUNiM6YtyYMlYhr7Fa8QZmgEM7VWoWeSzJuY
+id: node.field_campaign_prize_nowin
+field_name: field_campaign_prize_nowin
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,74 @@
+uuid: 59b0ec5a-d7db-453d-968e-6a20afcdc558
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nlanding
+_core:
+  default_config_hash: oz6hJaOFxZrZWqtjRL75VJ-Wn2gE_YR51WIRYMZWpHc
+id: openy_demo_lp_paragraph_teaser
+migration_tags: {  }
+migration_group: openy_demo_nlanding
+label: 'Create teaser paragraph(s) for demo landing page nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: accelerator_housing
+      parent_id: accelerator
+      title: 'Housing & Transition Planning'
+      image: housing_and_transition_planning
+      description: "<p>\nWe are the largest provider of housing for homeless young adults in\nKing County. We offer a variety of housing programs, including rapid\nrehousing, transitional housing, and independent living. We provide\nsupport to young people seeking housing, specifically focused on\nserving young people who are exiting foster care or have experienced\nhomelessness.\n</p>\n"
+    -
+      id: accelerator_education
+      parent_id: accelerator
+      title: 'Education & Employment'
+      image: education_and_employment
+      description: "<p>\nWe help young people achieve their goals and become self-sufficient. We\noffer job readiness support, internship programs, and assist with\ndiploma attainment. Our Drop-In Center connects young people with\nresource specialists who are available to help with applications,\nfinancial aid, job searching and resumes 5 days a week (Monday -\nThursday 1:30 pm - 5:30 pm and Friday 10:00 am - 2:00 pm).\n</p>\n"
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration
+    migration: openy_demo_node_landing
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: node
+  parent_field_name:
+    plugin: default_value
+    default_value: field_content
+  field_prgf_title: title
+  field_prgf_link/uri:
+    plugin: default_value
+    default_value: 'internal:/'
+  field_prgf_link/title:
+    plugin: default_value
+    default_value: 'Learn more'
+  field_prgf_image:
+    plugin: migration
+    migration: openy_demo_lp_media_image
+    source: image
+  field_prgf_description/value: description
+  field_prgf_description/format:
+    plugin: default_value
+    default_value: full_html
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: teaser
+migration_dependencies:
+  required:
+    - openy_demo_lp_media_image

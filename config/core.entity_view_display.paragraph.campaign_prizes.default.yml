@@ -1,0 +1,33 @@
+uuid: 7de0e7a1-7c08-496d-87b0-1c32a2642222
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_prizes.field_prgf_prize_amount
+    - field.field.paragraph.campaign_prizes.field_prgf_prize_description
+    - paragraphs.paragraphs_type.campaign_prizes
+_core:
+  default_config_hash: APwwSKcwtTfyzh1pn0pt6sbESX3_tjIRr2mVusJrMA4
+id: paragraph.campaign_prizes.default
+targetEntityType: paragraph
+bundle: campaign_prizes
+mode: default
+content:
+  field_prgf_prize_amount:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_prgf_prize_description:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

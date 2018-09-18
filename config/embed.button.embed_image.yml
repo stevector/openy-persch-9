@@ -1,0 +1,28 @@
+uuid: 7c0feb11-d829-41b6-86e5-99b7fe8085b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+  content:
+    - 'file:file:b651c406-b99f-4cd0-aed4-d0f28c8ad701'
+  module:
+    - entity_embed
+    - media_entity
+_core:
+  default_config_hash: eQ1oH0Y5s7KZMBIYq31bESwPzt2cBySAGdx5WE543Rw
+label: Image
+id: embed_image
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'view_mode:media.embedded_full'
+    - 'view_mode:media.embedded_half'
+    - 'view_mode:media.embedded_link'
+  entity_browser: images_library_embed
+  entity_browser_settings:
+    display_review: false
+icon_uuid: b651c406-b99f-4cd0-aed4-d0f28c8ad701

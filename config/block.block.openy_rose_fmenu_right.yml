@@ -1,0 +1,26 @@
+uuid: 433db8b4-4cef-481a-aa0a-1b1d51cbdd1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu-right
+  module:
+    - system
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: IXaMcci8lG5Rqt7ZtcrgX82Ic5N1XAPKN3r60RWxl1M
+id: openy_rose_fmenu_right
+theme: openy_rose
+region: footer_menus
+weight: -1
+provider: null
+plugin: 'system_menu_block:footer-menu-right'
+settings:
+  id: 'system_menu_block:footer-menu-right'
+  label: 'Footer menu right'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

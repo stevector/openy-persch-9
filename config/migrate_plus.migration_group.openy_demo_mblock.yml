@@ -1,0 +1,14 @@
+uuid: 7af95efc-770d-4f19-b9b4-0a16493e1077
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_bmicrosites_menu
+_core:
+  default_config_hash: 3UVFjyzrQxhRgIU1_AZ_gplXJFZYzmEtw2PVxjRYBzk
+id: openy_demo_mblock
+label: Block
+description: 'Imports blocks that are being used for Microsites menu feature.'
+source_type: null
+module: openy_demo_bmicrosites_menu
+shared_configuration: null

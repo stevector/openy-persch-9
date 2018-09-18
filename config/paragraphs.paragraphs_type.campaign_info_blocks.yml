@@ -1,0 +1,11 @@
+uuid: 8c2bf98a-e835-4aef-87ff-9a8936e32cd8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cFHFpOC8BRuTxIcmv1U-MMJY4lYOHPcJgG1FH1H_Kcc
+id: campaign_info_blocks
+label: 'Campaign Info Blocks'
+icon_uuid: null
+description: 'Paragraph type to show Simple text, Visit Tracking, Activity count or Game blocks in 1 or 2 columns.'
+behavior_plugins: {  }

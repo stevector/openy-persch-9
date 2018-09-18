@@ -1,0 +1,33 @@
+uuid: 69d5107f-480c-4c2d-bed3-4eda03aa9a04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.upcoming_events.field_prgf_block
+    - field.field.paragraph.upcoming_events.field_prgf_title
+    - paragraphs.paragraphs_type.upcoming_events
+  module:
+    - plugin
+_core:
+  default_config_hash: pRMBZQrHOdcXPTDKFFP19b1ZKpVawmKQFGfxzU8ff7Y
+id: paragraph.upcoming_events.default
+targetEntityType: paragraph
+bundle: upcoming_events
+mode: default
+content:
+  field_prgf_block:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: plugin_block_built
+    region: content
+  field_prgf_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

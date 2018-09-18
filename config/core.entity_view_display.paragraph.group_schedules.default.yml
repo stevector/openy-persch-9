@@ -1,0 +1,26 @@
+uuid: 99de183c-efe0-41c5-80f9-abb9b7b05ec6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.group_schedules.field_prgf_schedules_ref
+    - paragraphs.paragraphs_type.group_schedules
+  module:
+    - plugin
+_core:
+  default_config_hash: 5qnEX4U191wg9nHw23dTNo1rXzklhWJK3PrKCjQCHDY
+id: paragraph.group_schedules.default
+targetEntityType: paragraph
+bundle: group_schedules
+mode: default
+content:
+  field_prgf_schedules_ref:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: plugin_block_built
+    region: content
+hidden:
+  created: true
+  uid: true

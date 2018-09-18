@@ -1,0 +1,11 @@
+uuid: a597435a-1003-4ed8-9d0b-4dae113b431d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: inHzaeoypvHQZiY922sYj2bcsSvj_3IedHcHCMhb890
+id: group_schedules
+label: 'Group Schedules (GroupEx Pro)'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

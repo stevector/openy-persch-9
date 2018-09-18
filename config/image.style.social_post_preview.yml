@@ -1,0 +1,9 @@
+uuid: b642b929-9e70-46af-9fa6-05773b433917
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PZe0D8XYPnSTPU8UiyH6gdor-sxoJTcIxwXtW0MB8bk
+name: social_post_preview
+label: 'Social post preview'
+effects: {  }

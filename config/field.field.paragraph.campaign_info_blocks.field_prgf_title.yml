@@ -1,0 +1,27 @@
+uuid: a3fe6208-b123-4435-a544-ca6144d6c323
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_title
+    - paragraphs.paragraphs_type.campaign_info_blocks
+  module:
+    - datalayer
+third_party_settings:
+  datalayer:
+    expose: 0
+    label: field_prgf_title
+_core:
+  default_config_hash: AZd8voMJF9XDxmKmSy8r7Lftl71WybgyxwazOKPyttY
+id: paragraph.campaign_info_blocks.field_prgf_title
+field_name: field_prgf_title
+entity_type: paragraph
+bundle: campaign_info_blocks
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

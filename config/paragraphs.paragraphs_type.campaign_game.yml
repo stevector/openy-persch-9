@@ -1,0 +1,11 @@
+uuid: 43a3dc8b-682d-49d2-ba11-6a9f0fb83ca1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MFqGn92LsfTHrkrcQtQZmxQh0_WXHGS-IXbBTRjhwXo
+id: campaign_game
+label: 'Campaign Game'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

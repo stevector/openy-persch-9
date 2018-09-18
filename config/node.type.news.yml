@@ -1,0 +1,19 @@
+uuid: 8ee76909-05c5-4969-a66a-af47b8a69890
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: MfoBL2NFSh8ceb3eFa4ytpu8ukD_MWEV4b0cMA5kVS8
+name: 'News Post'
+type: news
+description: 'News Post content type is used for adding news posts on the site.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

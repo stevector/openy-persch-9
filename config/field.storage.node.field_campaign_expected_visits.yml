@@ -1,0 +1,22 @@
+uuid: 82f9f69e-6fe0-4db6-8611-35e59048a08f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ibufKRJKtWB-uxphhZK3lLG_b0gtLp18EcdPRKIEwHQ
+id: node.field_campaign_expected_visits
+field_name: field_campaign_expected_visits
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

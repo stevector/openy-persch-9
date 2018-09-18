@@ -1,0 +1,25 @@
+uuid: 689d877b-e518-43c6-9b51-19d6f30e86a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - taxonomy
+_core:
+  default_config_hash: BqtsrQ__rzJaqeIuKQHEVIHRjzAX7FaWjf_4RTMEvu8
+id: taxonomy_term.field_amenities_icon
+field_name: field_amenities_icon
+entity_type: taxonomy_term
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

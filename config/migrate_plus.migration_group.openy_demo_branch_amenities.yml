@@ -1,0 +1,14 @@
+uuid: a54cb0db-7989-4e79-95fb-787931eab381
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_bamenities
+_core:
+  default_config_hash: lMV-Xm69YH-l6BaP8KJnWEwp8PMsLnXzshNUIAsWTRI
+id: openy_demo_branch_amenities
+label: Block
+description: 'Imports blocks that are being used for Branch Amenities feature.'
+source_type: null
+module: openy_demo_bamenities
+shared_configuration: null

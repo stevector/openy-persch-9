@@ -1,0 +1,14 @@
+uuid: 1d27f97a-cb82-4593-ba3f-fb8bcf86221e
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nsessions
+_core:
+  default_config_hash: 4K_D-TObdTyvTPcVZkdXP6O-Wva-yvsj4bS2e2QQ9QQ
+id: openy_demo_nsessions
+label: Session
+description: 'Imports session demo content.'
+source_type: null
+module: openy_demo_nsessions
+shared_configuration: null

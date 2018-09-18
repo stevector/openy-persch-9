@@ -1,0 +1,26 @@
+uuid: cac188ee-a22e-4bfd-85cc-09251582ef83
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: 7ZA1B-aeI2cLj83CT_QsbPeeifU5O-1l_BV2DgyW9EY
+id: openy_rose_mainnavigation
+theme: openy_rose
+region: mobile_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

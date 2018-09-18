@@ -1,0 +1,27 @@
+uuid: 33248bd2-2be1-45d8-93d8-8daf0b871a31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.schedule_search_form.field_prgf_block
+    - paragraphs.paragraphs_type.schedule_search_form
+  module:
+    - content_moderation
+_core:
+  default_config_hash: lHdJqGdeNdTpQbYOtmG6XvEBoNb2Hzrv2k2jiinnPKw
+id: paragraph.schedule_search_form.default
+targetEntityType: paragraph
+bundle: schedule_search_form
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

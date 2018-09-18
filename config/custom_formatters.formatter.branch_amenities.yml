@@ -1,0 +1,16 @@
+uuid: 66e90aa6-8f5d-4395-b3b4-67227797b32b
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  contextual:
+    mode: '0'
+_core:
+  default_config_hash: pgpEAfIa9FMuDCuaZT5NVHq0c9jiBz-09gZVi330P-k
+id: branch_amenities
+label: 'Branch amenities'
+type: html_token
+description: 'Formatter to display list of amenities for the viewed Center.'
+field_types:
+  - boolean
+data: '[openy:list-branch-amenities]'

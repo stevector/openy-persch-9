@@ -1,0 +1,21 @@
+uuid: 0f767d9b-f757-4dfb-94ba-3ffffcf2ec89
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: NX2cskpxV-1BgDJpUNvRd4mchwpP_jSMCmWk0prREpo
+id: node.field_campaign_game_short_info
+field_name: field_campaign_game_short_info
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

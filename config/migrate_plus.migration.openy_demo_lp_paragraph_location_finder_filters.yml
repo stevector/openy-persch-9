@@ -1,0 +1,51 @@
+uuid: c1df0aba-891a-434a-a1cd-b1f038d65df6
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nlanding
+_core:
+  default_config_hash: CjDfWxpkpUCuXZ94G-Jf6UL0sZ-MVX_qm4r0UrHkPaY
+id: openy_demo_lp_paragraph_location_finder_filters
+migration_tags: {  }
+migration_group: openy_demo_nlanding
+label: 'Create Location finder filters paragraph(s) for demo landing page nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: locations_location_finder_filters
+      parent_id: locations
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration
+    migration: openy_demo_node_landing
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: node
+  parent_field_name:
+    plugin: default_value
+    default_value: field_content
+  field_prgf_lf_tags_style:
+    plugin: default_value
+    default_value: checkboxes
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: prgf_location_finder_filters
+migration_dependencies: {  }

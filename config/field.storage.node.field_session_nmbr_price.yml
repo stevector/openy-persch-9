@@ -1,0 +1,22 @@
+uuid: 5a30cc5c-6241-497a-8d03-a1c4b044a19b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 51wb8RmbX7hWlmrcdZNxEUh9Mi-yoKIfMG3savVZvm0
+id: node.field_session_nmbr_price
+field_name: field_session_nmbr_price
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

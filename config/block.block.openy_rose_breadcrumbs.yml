@@ -1,0 +1,22 @@
+uuid: 36b97d5c-715b-4d19-a313-0cfbbb192e47
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: '-wM3UUwcXFIrlj4Gbuq6drzuvhVlh_-L19CXeGG4G54'
+id: openy_rose_breadcrumbs
+theme: openy_rose
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

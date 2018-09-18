@@ -1,0 +1,14 @@
+uuid: b03e46d6-92ab-48dc-911a-a1783ce0b4d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_menu
+_core:
+  default_config_hash: CfbfA2WZ2zNgEVmxmBq_GNGh9nboLx6U7ZZoaLj8qro
+id: openy_demo_menu
+label: 'Demo menu'
+description: 'Imports demo menu.'
+source_type: null
+module: openy_demo_menu
+shared_configuration: null

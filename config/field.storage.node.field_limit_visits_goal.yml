@@ -1,0 +1,22 @@
+uuid: 790c1065-9b04-44fe-b933-dd7c121c37b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: jku36kgKt7M4D5qQn6Vmi4Pi48G7pXwz-G8IZLHsLZk
+id: node.field_limit_visits_goal
+field_name: field_limit_visits_goal
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+uuid: e03bdb45-d0e5-4a91-9f2d-bbb0552ef701
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BKE0X6J7HUytUDigSI1Nl9ZQp4dSsKjSpW_B7JenAvM
+name: node_news_teaser
+label: 'Node news teaser'
+effects:
+  d029a509-0ee4-4230-b595-9f373357e571:
+    uuid: d029a509-0ee4-4230-b595-9f373357e571
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 362
+      height: 362

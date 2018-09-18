@@ -1,0 +1,13 @@
+uuid: 734063ff-0edf-4f82-97b2-3ac713e89571
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video_local
+_core:
+  default_config_hash: p6Tzs30OAXMzQUqX7S_5AJp5v8OQvTMb_eoAx6xnvt0
+id: media.video_local
+target_entity_type_id: media
+target_bundle: video_local
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,33 @@
+uuid: f451f1e8-5fee-42ba-885c-4af8a09fd6ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_leadership.field_prgf_campaign_leadership
+    - paragraphs.paragraphs_type.campaign_leadership
+  module:
+    - content_moderation
+    - plugin
+_core:
+  default_config_hash: qS4eBWHS-5pU814Tm7J9h2H7m8YJ-F2wmw3Vxwh0OpY
+id: paragraph.campaign_leadership.default
+targetEntityType: paragraph
+bundle: campaign_leadership
+mode: default
+content:
+  field_prgf_campaign_leadership:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: 'plugin_selector:plugin_select_list'
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

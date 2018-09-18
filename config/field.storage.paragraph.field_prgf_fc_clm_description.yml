@@ -1,0 +1,21 @@
+uuid: 3cb7fc99-4704-4efa-8e66-d00a4f95d29c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: 3WOLdsMf6GksidK3oKmTl06RT4DyCUGATKSEw3phdPE
+id: paragraph.field_prgf_fc_clm_description
+field_name: field_prgf_fc_clm_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

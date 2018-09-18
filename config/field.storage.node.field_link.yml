@@ -1,0 +1,24 @@
+uuid: f8996731-b60e-43c5-a5cd-202029f9b693
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - social_feed_fetcher
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: lfTfGoutZkNV_e65Zs7R-t39gG4SvzZlfChOenCfCwk
+id: node.field_link
+field_name: field_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

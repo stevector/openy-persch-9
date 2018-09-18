@@ -1,0 +1,16 @@
+uuid: 7636d837-04c5-4a2d-a295-95eb1256f977
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: s1Wn7VYn4aFkuYHQqBdffwu3VH3kYAjDE16qw9cFKKY
+name: thumbnail_for_preview
+label: 'Thumbnail for preview'
+effects:
+  272e64a7-b52e-47e2-9f9f-c647e31a3843:
+    uuid: 272e64a7-b52e-47e2-9f9f-c647e31a3843
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150

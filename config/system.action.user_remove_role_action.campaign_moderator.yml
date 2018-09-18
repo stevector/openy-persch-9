@@ -1,0 +1,14 @@
+uuid: da7b0508-bdc9-4c44-bb5a-59dd74f1d034
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.campaign_moderator
+  module:
+    - user
+id: user_remove_role_action.campaign_moderator
+label: 'Remove the Campaign moderator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: campaign_moderator

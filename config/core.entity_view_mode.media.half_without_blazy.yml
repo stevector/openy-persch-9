@@ -1,0 +1,12 @@
+uuid: 445f7152-c5b5-4684-b381-f618ce2be487
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: zKIv5rxiS3jrP18v_ZH5yxx4kD6GoVQT3i4tab0NXFk
+id: media.half_without_blazy
+label: 'Half without Blazy'
+targetEntityType: media
+cache: true

@@ -1,0 +1,11 @@
+uuid: 8108f040-bc26-4202-9249-e86051735eb9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YvAGppFLVIMfLeUij2-oobGECnTplJUC6-liGI-gS1o
+id: teaser
+label: Teaser
+icon_uuid: null
+description: null
+behavior_plugins: {  }

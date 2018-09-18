@@ -1,0 +1,11 @@
+uuid: 3342cd51-32fc-40e7-91d3-6fbb7c2dc646
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xKpHkbTd_q5okOEkwTsPCObitX2M2qO4sypQIO-kFI4
+name: Amenities
+vid: amenities
+description: 'Branch amenities.'
+hierarchy: 0
+weight: 0

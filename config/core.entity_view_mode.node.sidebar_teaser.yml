@@ -1,0 +1,12 @@
+uuid: 5ded4500-57df-48a1-a1ad-a9fa2a869d9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: qxTOB00xEWEcF4lMLIrRd7ntNfbl-oEQKviOGBx0kfw
+id: node.sidebar_teaser
+label: 'Sidebar teaser'
+targetEntityType: node
+cache: true

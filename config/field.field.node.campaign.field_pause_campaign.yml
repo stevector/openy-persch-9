@@ -1,0 +1,25 @@
+uuid: 39907278-894d-4612-a83a-a645f4ad27a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pause_campaign
+    - node.type.campaign
+_core:
+  default_config_hash: qtcnVZiGXp4BDe5txrwjJBEwsEwR9A_2ut6MFaHPZU0
+id: node.campaign.field_pause_campaign
+field_name: field_pause_campaign
+entity_type: node
+bundle: campaign
+label: 'Pause campaign'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 574379c1-2de0-41f2-910e-8be9cc9ab705
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_clm_class
+    - paragraphs.paragraphs_type.grid_columns
+_core:
+  default_config_hash: 8sGIvlD7VExYcMC60sVzHJmvdkp-jlZ6EIZqD5ArbZY
+id: paragraph.grid_columns.field_prgf_clm_class
+field_name: field_prgf_clm_class
+entity_type: paragraph
+bundle: grid_columns
+label: 'Icon Class'
+description: 'Input field that allows to add the font-awesome icons needed.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

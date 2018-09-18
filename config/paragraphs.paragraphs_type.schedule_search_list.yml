@@ -1,0 +1,11 @@
+uuid: 00902107-9991-43ec-acf2-ebbd2e802ca4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j3FTexzm5XSoPSZHzX9k0miW2DdUSpHj9eSVa3bqkpw
+id: schedule_search_list
+label: 'Schedule search list'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

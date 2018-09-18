@@ -1,0 +1,43 @@
+uuid: 0154933b-3b22-431f-bd47-582fff2fe205
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.code.field_prgf_code_block
+    - paragraphs.paragraphs_type.code
+  module:
+    - content_moderation
+    - entity_browser_entity_form
+    - inline_entity_form
+_core:
+  default_config_hash: RTD7xSlGx-JQN08kqPWMQESOvqTm-f47_GQ9TwK7Wyg
+id: paragraph.code.default
+targetEntityType: paragraph
+bundle: code
+mode: default
+content:
+  field_prgf_code_block:
+    weight: 0
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+    type: inline_entity_form_complex
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

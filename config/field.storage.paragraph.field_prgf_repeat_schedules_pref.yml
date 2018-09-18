@@ -1,0 +1,22 @@
+uuid: bc70fafe-eabc-46f3-9d6e-281610d93109
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+_core:
+  default_config_hash: lOuv9v7aaqWY2UOc7m7N763TLlw9BmmosNjPJ_bMG3Q
+id: paragraph.field_prgf_repeat_schedules_pref
+field_name: field_prgf_repeat_schedules_pref
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

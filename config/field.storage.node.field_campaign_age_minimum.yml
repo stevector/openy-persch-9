@@ -1,0 +1,23 @@
+uuid: bac46d2d-fd2a-40ae-a0b2-4b5538070bc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: PuVZh2DQ9512AlBOyyMp2EeYnxUQZgY7jkzNsTMoz1w
+id: node.field_campaign_age_minimum
+field_name: field_campaign_age_minimum
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: dc64d137-6929-4360-9049-f4e588f098f9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DiXPT1jlCoHn_L0uxaq3vquSpTmDiYgHu08oDpkV_P0
+id: social_list
+label: 'Social List'
+icon_uuid: null
+description: 'List of social posts, which are imported from social networks.'
+behavior_plugins: {  }

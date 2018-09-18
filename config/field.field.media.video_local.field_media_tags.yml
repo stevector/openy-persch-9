@@ -1,0 +1,30 @@
+uuid: 38a4f975-6e9d-4db0-bee2-548851062203
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_tags
+    - media_entity.bundle.video_local
+    - taxonomy.vocabulary.media_tags
+_core:
+  default_config_hash: '-15jQDYvmUh-LsR_N2gWD7MoQio8BIb1CMazk64WREI'
+id: media.video_local.field_media_tags
+field_name: field_media_tags
+entity_type: media
+bundle: video_local
+label: 'Media Tags'
+description: 'Set tags for uploaded video.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_tags: media_tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

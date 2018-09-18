@@ -1,0 +1,11 @@
+uuid: 16e50800-91d0-4362-b82a-69fb8ef01ece
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fbLW8JsNr-1iVBwRHJf7tIiJ69CeKhyq5HPsJe0RiXo
+id: location_filter_by_amenities
+label: 'Location filter by amenities'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

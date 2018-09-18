@@ -1,0 +1,11 @@
+uuid: df539c22-ff42-4626-b12d-66695d5c015b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCxI1RtTqrdg_Iq4sAN5M2q6mRapFntfjgLeF22p6ao
+name: Area
+vid: area
+description: 'This vocabulary is used for adding location areas on the site.'
+hierarchy: 0
+weight: 0

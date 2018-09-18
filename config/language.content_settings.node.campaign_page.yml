@@ -1,0 +1,13 @@
+uuid: 1fc12ab2-cc2f-44d4-839a-ab41361768de
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.campaign_page
+_core:
+  default_config_hash: MvnbJoeM_TyMlpx6aEY9piKeAb5W-DVlTgJUBbo9VD4
+id: node.campaign_page
+target_entity_type_id: node
+target_bundle: campaign_page
+default_langcode: site_default
+language_alterable: false

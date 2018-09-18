@@ -1,0 +1,12 @@
+uuid: 1860cb2f-3f36-4a74-962c-a064fb2a1251
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: DOsLgXGMi74t1AzukFngrG0AxvymOXsTUaNN5R1hLF4
+id: media.prgf_gallery
+label: 'Paragraph gallery'
+targetEntityType: media
+cache: true

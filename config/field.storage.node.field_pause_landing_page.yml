@@ -1,0 +1,21 @@
+uuid: 0bd73a27-29c7-47b8-88e6-a8625199305a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 1bCvUNnTTu6CsFAFf0xNW7eJ1L3IQdkSdmZ6hUCZCao
+id: node.field_pause_landing_page
+field_name: field_pause_landing_page
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

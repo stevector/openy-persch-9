@@ -1,0 +1,58 @@
+uuid: 832d89d4-5a82-4f58-9174-26b104df749c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.membership_info.field_mbrshp_join_fee
+    - field.field.paragraph.membership_info.field_mbrshp_link
+    - field.field.paragraph.membership_info.field_mbrshp_location
+    - field.field.paragraph.membership_info.field_mbrshp_monthly_rate
+    - paragraphs.paragraphs_type.membership_info
+  module:
+    - content_moderation
+    - link
+_core:
+  default_config_hash: mmOqgXCx8N64xpnzPyyGo_nWBYntwuRwvCoUBAheS6w
+id: paragraph.membership_info.default
+targetEntityType: paragraph
+bundle: membership_info
+mode: default
+content:
+  field_mbrshp_join_fee:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_mbrshp_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_mbrshp_location:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_mbrshp_monthly_rate:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

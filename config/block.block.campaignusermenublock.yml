@@ -1,0 +1,30 @@
+uuid: dd19aaf5-83d5-4b40-a2d6-27fbd4aea083
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+    - openy_campaign
+  theme:
+    - openy_campaign_theme
+_core:
+  default_config_hash: '-PwDuYjuesO17_i-flDEE9PQ14rG2G8B9k7bhh-trPg'
+id: campaignusermenublock
+theme: openy_campaign_theme
+region: ''
+weight: -7
+provider: null
+plugin: campaign_user_menu_block
+settings:
+  id: campaign_user_menu_block
+  label: 'Campaign user menu block'
+  provider: openy_campaign
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      campaign: campaign
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

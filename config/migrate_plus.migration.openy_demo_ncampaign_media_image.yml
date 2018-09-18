@@ -1,0 +1,47 @@
+uuid: b1411dd2-61a6-4007-b444-5a25eaae1fbc
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_ncampaign
+_core:
+  default_config_hash: hWlmYXk8lgbpu_zOHwo1GZHXcX-kQaKQtN2I2j6Vd70
+id: openy_demo_ncampaign_media_image
+migration_tags: {  }
+migration_group: openy_demo_ncampaign
+label: 'Media Images'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      name: 'Campaign main image 1'
+      file: 1
+  ids:
+    id:
+      type: integer
+process:
+  name:
+    -
+      plugin: get
+      source: name
+  bundle:
+    -
+      plugin: default_value
+      default_value: image
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  field_media_image:
+    -
+      plugin: migration
+      migration: openy_demo_ncampaign_file
+      source: file
+destination:
+  plugin: 'entity:media'
+migration_dependencies:
+  required:
+    - openy_demo_ncampaign_file
+  optional: {  }

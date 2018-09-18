@@ -1,0 +1,10 @@
+uuid: 278faef7-9a71-4556-b8e7-037fa4732838
+langcode: en
+status: true
+dependencies: {  }
+id: openy_demo_term
+label: openy_demo_term
+description: ''
+source_type: null
+module: null
+shared_configuration: null

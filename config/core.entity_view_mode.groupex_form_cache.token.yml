@@ -1,0 +1,10 @@
+uuid: 4e3262cf-a473-48aa-8bf6-881d688eb50e
+langcode: en
+status: true
+dependencies:
+  module:
+    - groupex_form_cache
+id: groupex_form_cache.token
+label: Token
+targetEntityType: groupex_form_cache
+cache: true

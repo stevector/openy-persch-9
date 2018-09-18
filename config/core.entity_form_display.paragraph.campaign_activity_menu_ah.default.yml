@@ -1,0 +1,42 @@
+uuid: 4758185c-0aae-404a-a880-dda90552ab5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_activity_menu_ah.field_prgf_block
+    - field.field.paragraph.campaign_activity_menu_ah.field_prgf_campaign_menu_title
+    - paragraphs.paragraphs_type.campaign_activity_menu_ah
+  module:
+    - content_moderation
+    - plugin
+_core:
+  default_config_hash: xTEoQBl78KsA9TgzX0q4YwA8EGNpmxs7BtZXs97zlKI
+id: paragraph.campaign_activity_menu_ah.default
+targetEntityType: paragraph
+bundle: campaign_activity_menu_ah
+mode: default
+content:
+  field_prgf_block:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: 'plugin_selector:plugin_select_list'
+    region: content
+  field_prgf_campaign_menu_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

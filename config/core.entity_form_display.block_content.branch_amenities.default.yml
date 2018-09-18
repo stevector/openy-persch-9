@@ -1,0 +1,67 @@
+uuid: 224be294-a68c-4952-87eb-de4b3b5ad0ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.branch_amenities
+    - field.field.block_content.branch_amenities.field_branch_am
+    - field.field.block_content.branch_amenities.field_icon_class
+    - field.field.block_content.branch_amenities.field_sb_link
+    - field.field.block_content.branch_amenities.field_sb_title
+  module:
+    - content_moderation
+    - link
+_core:
+  default_config_hash: GuLAtBU8hxE340F2Q0M4oiWyriiAQHPc-Q_9-ugYh-Q
+id: block_content.branch_amenities.default
+targetEntityType: block_content
+bundle: branch_amenities
+mode: default
+content:
+  field_icon_class:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sb_link:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_sb_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_branch_am: true

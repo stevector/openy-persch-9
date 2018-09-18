@@ -1,0 +1,24 @@
+uuid: 34973705-80f8-434f-bcaf-69d685b2ac91
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.campaign
+_core:
+  default_config_hash: '-x25B75YwJJrowNfU2_o9wrstCaUedMpfIefEAb4r38'
+id: node.campaign.status
+field_name: status
+entity_type: node
+bundle: campaign
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,14 @@
+uuid: 67c4c404-e37e-4c32-81fc-7ebc33acc77a
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nfacility
+_core:
+  default_config_hash: 0iknJhtVI9hC4cylU4fhE55Yw-FKPZhWdza_xenVHYs
+id: openy_demo_nfacility
+label: Facility
+description: 'Imports facility demo content.'
+source_type: null
+module: openy_demo_nfacility
+shared_configuration: null

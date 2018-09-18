@@ -1,0 +1,25 @@
+uuid: 22fe4956-b0a2-4706-b2b7-a1350b58b7d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_prize_amount
+    - paragraphs.paragraphs_type.campaign_prizes
+_core:
+  default_config_hash: drVQhNmPHiLveY8lkajgI3os49sNU9qGuueDZH40bfM
+id: paragraph.campaign_prizes.field_prgf_prize_amount
+field_name: field_prgf_prize_amount
+entity_type: paragraph
+bundle: campaign_prizes
+label: Amount
+description: 'How many prizes are available. I.e. 50'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

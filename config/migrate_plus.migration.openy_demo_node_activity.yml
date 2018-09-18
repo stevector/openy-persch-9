@@ -1,0 +1,170 @@
+uuid: 7a2e478d-3b97-4268-be4a-e48ad86dc92d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nclass
+_core:
+  default_config_hash: FrTNFCdQqSbAO3WjjTe2hDoxEO9jvtY6j-4t4yPyyYY
+id: openy_demo_node_activity
+migration_tags: {  }
+migration_group: openy_demo_nclass
+label: 'Create demo activity nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: swim_lessons_adult
+      title: 'Swim Lessons - Adult'
+      subcategory: swim_lessons
+    -
+      id: group_exercise_classes
+      title: 'Group Exercise Classes'
+      subcategory: group_exercise_classes
+    -
+      id: activity_cardio
+      title: Cardio
+      subcategory: group_exercise_classes
+    -
+      id: activity_strength
+      title: Strength
+      subcategory: group_exercise_classes
+    -
+      id: activity_forever_well
+      title: 'Forever Well'
+      subcategory: group_exercise_classes
+    -
+      id: activity_climbing_adult
+      title: 'Climbing - Adult'
+      subcategory: family_activities
+    -
+      id: activity_cooking_classes
+      title: 'Cooking Classes'
+      subcategory: family_activities
+    -
+      id: activity_health_wellness_workshops
+      title: 'Health & Wellness Workshops'
+      subcategory: family_activities
+    -
+      id: activity_health_improvement
+      title: 'Health Improvement'
+      subcategory: family_activities
+    -
+      id: activity_weight_loss
+      title: 'Weight Loss'
+      subcategory: family_activities
+    -
+      id: activity_personal_training
+      title: 'Personal Training'
+      subcategory: personal_training
+    -
+      id: activity_small_group_specialty_training
+      title: 'Small Group and Specialty Training'
+      subcategory: personal_training
+    -
+      id: activity_small_group_training_youth
+      title: 'Small Group Training - Youth'
+      subcategory: personal_training
+    -
+      id: activity_swim_lessons_child_with_adult
+      title: 'Swim Lessons - Child with Adult'
+      subcategory: swim_lessons
+    -
+      id: activity_swim_lessons_preschool
+      title: 'Swim Lessons - Preschool'
+      subcategory: swim_lessons
+    -
+      id: activity_swim_lessons_private
+      title: 'Swim Lessons - Private'
+      subcategory: swim_lessons
+    -
+      id: activity_swim_lessons_teen
+      title: 'Swim Lessons - Teen'
+      subcategory: swim_lessons
+    -
+      id: activity_swim_lessons_youth
+      title: 'Swim Lessons - Youth'
+      subcategory: swim_lessons
+    -
+      id: activity_swim_team
+      title: 'Swim Team'
+      subcategory: swim_lessons
+    -
+      id: activity_drop_in_swim
+      title: 'Drop-In Swim'
+      subcategory: swim_lessons
+    -
+      id: activity_bold_one_week_expeditions
+      title: 'BOLD One-Week Expeditions'
+      subcategory: day_camps
+    -
+      id: activity_discovery_day_camp
+      title: 'Discovery Day Camp'
+      subcategory: day_camps
+    -
+      id: activity_academic_enrichment_youth
+      title: 'Academic Enrichment - Youth'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_academic_success
+      title: 'Academic Success'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_arts_crafts
+      title: 'Arts & Crafts'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_before_after_school_child_care
+      title: 'Before & After School Child Care'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_before_after_school_programs
+      title: 'Before & After School Programs'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_birthday_parties
+      title: 'Birthday Parties'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_earth_service_corps
+      title: 'Earth Service Corps'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_kids_zone_activity_centers
+      title: 'Kids Zone Activity Centers'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_preschool_child_care
+      title: 'Preschool Child Care'
+      subcategory: health_and_fitness_for_kids_and_teens
+    -
+      id: activity_sports_classes_workshops_youth
+      title: 'Sports Classes & Workshops - Youth'
+      subcategory: health_and_fitness_for_kids_and_teens
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: title
+  field_activity_category:
+    plugin: migration
+    migration: openy_demo_node_program_subcategory
+    no_stub: true
+    source: subcategory
+destination:
+  plugin: 'entity:node'
+  default_bundle: activity
+migration_dependencies:
+  required:
+    - openy_demo_node_program_subcategory

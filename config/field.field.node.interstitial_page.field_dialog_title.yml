@@ -1,0 +1,27 @@
+uuid: fdc111d5-6694-401f-96ba-62af9018608e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dialog_title
+    - node.type.interstitial_page
+  module:
+    - datalayer
+third_party_settings:
+  datalayer:
+    expose: 0
+    label: field_dialog_title
+_core:
+  default_config_hash: mDG5zaOhVzr_IJuLXx5qLiy5sNaFTBHobv0fIdu9JfY
+id: node.interstitial_page.field_dialog_title
+field_name: field_dialog_title
+entity_type: node
+bundle: interstitial_page
+label: 'Dialog title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

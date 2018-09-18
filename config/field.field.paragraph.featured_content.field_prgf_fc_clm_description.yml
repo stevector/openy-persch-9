@@ -1,0 +1,23 @@
+uuid: 887c5e2d-8c14-4e61-ba99-b63d571d03b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_fc_clm_description
+    - paragraphs.paragraphs_type.featured_content
+  module:
+    - text
+_core:
+  default_config_hash: kqizE2me_vUMUe82sihvHdy3U96YUWFdnh3MeeSDYzw
+id: paragraph.featured_content.field_prgf_fc_clm_description
+field_name: field_prgf_fc_clm_description
+entity_type: paragraph
+bundle: featured_content
+label: 'Column description'
+description: 'Multiple values. Textarea for the column with WYSIWYG, without summary.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

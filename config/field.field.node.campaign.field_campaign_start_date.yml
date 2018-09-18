@@ -1,0 +1,26 @@
+uuid: 582553a7-03da-4909-871e-8846f342be17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_start_date
+    - node.type.campaign
+  module:
+    - datetime
+_core:
+  default_config_hash: JGFksNl2vOPQUEbvWJuyzv9fjUXtb_AMsiSQRK7hb_M
+id: node.campaign.field_campaign_start_date
+field_name: field_campaign_start_date
+entity_type: node
+bundle: campaign
+label: 'Campaign start date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

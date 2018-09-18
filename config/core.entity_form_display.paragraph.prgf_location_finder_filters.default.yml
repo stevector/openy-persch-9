@@ -1,0 +1,34 @@
+uuid: b60841bf-9b58-43ac-b0f4-0d9652dae790
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.prgf_location_finder_filters.field_prgf_lf_tags_style
+    - field.field.paragraph.prgf_location_finder_filters.field_prgf_location_finder
+    - paragraphs.paragraphs_type.prgf_location_finder_filters
+  module:
+    - content_moderation
+_core:
+  default_config_hash: Skt9jYKe8G4TltXWsU5zmJQf89G1LrCMCNBc2hpa-Zo
+id: paragraph.prgf_location_finder_filters.default
+targetEntityType: paragraph
+bundle: prgf_location_finder_filters
+mode: default
+content:
+  field_prgf_lf_tags_style:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_location_finder: true
+  status: true
+  uid: true

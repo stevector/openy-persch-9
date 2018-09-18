@@ -1,0 +1,23 @@
+uuid: 22b88d74-f862-458c-9381-f464e2ae995c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post
+    - node.type.social_post
+  module:
+    - text
+_core:
+  default_config_hash: E-zs4DDb8hBaeYGe9JfVkJbIRsJnoasuQyF0VetcEjs
+id: node.social_post.field_post
+field_name: field_post
+entity_type: node
+bundle: social_post
+label: Post
+description: 'The text of the post. It can contains html markup. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

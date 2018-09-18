@@ -1,0 +1,21 @@
+uuid: 37da465d-746f-432d-97d5-3ea41f69604f
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_video
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: hKC9gGhdVf9TqLRpeCUAOTm7FPEdgpeeWS0Ag_8v9Ac
+id: video_local
+label: 'Local Video'
+description: 'Use Local Video for uploading locally hosted videos.'
+type: video
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_media_local_video
+field_map: {  }

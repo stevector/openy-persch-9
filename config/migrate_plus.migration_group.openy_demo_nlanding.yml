@@ -1,0 +1,14 @@
+uuid: 2f8502ae-0a86-4a4d-9c47-af68acd31e45
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nlanding
+_core:
+  default_config_hash: s4WNBTzXMQYNDzu07kCoAeNkESToXlLd3lvghbrc2sM
+id: openy_demo_nlanding
+label: 'Landing Page'
+description: 'Imports landing page demo content.'
+source_type: null
+module: openy_demo_nlanding
+shared_configuration: null

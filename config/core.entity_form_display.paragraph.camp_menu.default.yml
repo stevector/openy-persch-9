@@ -1,0 +1,27 @@
+uuid: b805ac6c-904c-438a-8baf-5606ce3cbc68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.camp_menu.field_prgf_block
+    - paragraphs.paragraphs_type.camp_menu
+  module:
+    - content_moderation
+_core:
+  default_config_hash: JZ8dRApnFd7c_AHTKAWztxXwrqUCasG64Y6JP4nXzRE
+id: paragraph.camp_menu.default
+targetEntityType: paragraph
+bundle: camp_menu
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

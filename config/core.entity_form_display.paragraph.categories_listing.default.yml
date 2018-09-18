@@ -1,0 +1,27 @@
+uuid: dd15c2be-4d2b-412c-90d9-457dfe05f093
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.categories_listing.field_prgf_block
+    - paragraphs.paragraphs_type.categories_listing
+  module:
+    - content_moderation
+_core:
+  default_config_hash: fLBbIW4H9adW-axBzYzA_3cdJVA3Lia_OmY_GefFQhE
+id: paragraph.categories_listing.default
+targetEntityType: paragraph
+bundle: categories_listing
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

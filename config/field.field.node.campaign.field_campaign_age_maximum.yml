@@ -1,0 +1,21 @@
+uuid: 1ec2a247-7fef-49ea-b411-1d892bc217ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_age_maximum
+    - node.type.campaign
+_core:
+  default_config_hash: m1m1nmsnU2lEWkyZEMSjIf-_q6MYUeIpaLirBlLUJBk
+id: node.campaign.field_campaign_age_maximum
+field_name: field_campaign_age_maximum
+entity_type: node
+bundle: campaign
+label: 'Maximum age'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

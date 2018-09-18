@@ -1,0 +1,11 @@
+uuid: 4b4f2652-06fe-4aaa-aee0-d9ef45de79d4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1UV6_4JRvAEpk9jWdh30tGmnN0N1ID1ei280-Lc-dV0
+id: secondary_description_sidebar
+label: 'Secondary Description and Sidebar'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

@@ -1,0 +1,29 @@
+uuid: 9ea0bacf-df0f-414a-acf0-493c57b28a56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_parent
+    - node.type.campaign_page
+_core:
+  default_config_hash: FX_f-a9rpDmxjovUYTRZ5UyuqVnRkTPbZWN74R2fwxo
+id: node.campaign_page.field_campaign_parent
+field_name: field_campaign_parent
+entity_type: node
+bundle: campaign_page
+label: Campaign
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      campaign: campaign
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

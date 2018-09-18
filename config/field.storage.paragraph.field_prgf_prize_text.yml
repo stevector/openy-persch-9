@@ -1,0 +1,21 @@
+uuid: 252e9ecb-6974-4b74-9100-bdeb7af1e6c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: ih9r9Rg57ZC6iG1tcOp7mcotCAwOVO9MQEYGgbE6xlA
+id: paragraph.field_prgf_prize_text
+field_name: field_prgf_prize_text
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

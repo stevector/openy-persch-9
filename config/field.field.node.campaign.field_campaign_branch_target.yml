@@ -1,0 +1,33 @@
+uuid: 06524c21-fb05-48a1-8e6e-0152394ff8a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_branch_target
+    - node.type.branch
+    - node.type.campaign
+  module:
+    - openy_campaign_reference_with_text
+_core:
+  default_config_hash: rrXBCukJ8r4AufbRNLtDnxRnMNoDOVfFhEcC7L8Hah0
+id: node.campaign.field_campaign_branch_target
+field_name: field_campaign_branch_target
+entity_type: node
+bundle: campaign
+label: 'Campaign Branch Target'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      branch: branch
+    sort:
+      field: title
+      direction: ASC
+    auto_create: 0
+    auto_create_bundle: ''
+field_type: entity_reference_with_text

@@ -1,0 +1,21 @@
+uuid: a8d7188d-9eda-4c0d-a4db-6c4b1b21a06b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - plugin
+_core:
+  default_config_hash: NC5ahu5yqrVHTuii5jEm-f25PLzZJVRHRZR0QkyMhUI
+id: paragraph.field_prgf_campaign_winners
+field_name: field_prgf_campaign_winners
+entity_type: paragraph
+type: 'plugin:block'
+settings: {  }
+module: plugin
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

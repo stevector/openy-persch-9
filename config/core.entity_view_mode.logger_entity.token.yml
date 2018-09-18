@@ -1,0 +1,10 @@
+uuid: fb9f08f2-51b6-4bc6-8564-2a88f0fac6d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - logger_entity
+id: logger_entity.token
+label: Token
+targetEntityType: logger_entity
+cache: true

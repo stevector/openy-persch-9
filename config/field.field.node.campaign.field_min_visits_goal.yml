@@ -1,0 +1,25 @@
+uuid: 320d854e-3aac-43fb-ae1f-8feb47f60706
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_min_visits_goal
+    - node.type.campaign
+_core:
+  default_config_hash: QEJcqY7IhvVWL7m-mDVt_AWouyrNedRg1JtKZPYojJc
+id: node.campaign.field_min_visits_goal
+field_name: field_min_visits_goal
+entity_type: node
+bundle: campaign
+label: 'Minimum visits goal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

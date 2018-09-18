@@ -1,0 +1,26 @@
+uuid: a8d3d52b-c08e-4c98-88e4-24e2229a1a71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.camp
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: idmKgpqEBEiYfFsspXglLbTmz6ZkPh7xlOshSsD6XR0
+id: node.camp.field_content
+field_name: field_content
+entity_type: node
+bundle: camp
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+field_type: entity_reference_revisions

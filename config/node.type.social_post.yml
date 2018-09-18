@@ -1,0 +1,22 @@
+uuid: 18d169ae-b471-48c3-bc66-1a92abd50742
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - social_feed_fetcher
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: vhyT6UxPKLpFnjYGEnYzhUkthaWS4Q85dVKyM0hejCo
+name: 'Social Post'
+type: social_post
+description: 'This is a content type for the posts, pulled from Social Networks.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

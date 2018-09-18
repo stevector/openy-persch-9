@@ -1,0 +1,22 @@
+uuid: 8cdd7c13-50a8-43c4-b9ad-05256f719e4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: DAdgqJaNtGLrtBLbLULVlX8WBHgyEnXJQFKynms1rjQ
+id: node.field_campaign_fitness_category
+field_name: field_campaign_fitness_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_vocabulary
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

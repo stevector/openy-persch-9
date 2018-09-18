@@ -1,0 +1,11 @@
+uuid: 6d72a4e6-2909-46bc-90d7-ad1e935efe46
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bmlHg9-whcAQmohll-W3Bu3zhzydaRWBXvpEqXnr8YA
+id: taxonomy_vocabulary_color
+action: access_denied
+allow_override: 1
+redirect: ''
+redirect_code: 301

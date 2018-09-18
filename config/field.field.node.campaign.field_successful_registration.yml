@@ -1,0 +1,26 @@
+uuid: 030d9104-1c40-44ed-ae5b-dbf730cf736e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_successful_registration
+    - node.type.campaign
+  module:
+    - text
+_core:
+  default_config_hash: '-GaY4Fs1Dm1iuHoA2Tze6eXGgZD8cxAqazD93j6DnQk'
+id: node.campaign.field_successful_registration
+field_name: field_successful_registration
+entity_type: node
+bundle: campaign
+label: 'Registration successful message'
+description: 'Message to display after successful registration.'
+required: false
+translatable: false
+default_value:
+  -
+    value: '<p>Thank you for registering. Now you can sign in!</p>'
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

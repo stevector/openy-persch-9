@@ -1,0 +1,26 @@
+uuid: 203f0a2c-127b-4f7f-8985-1be8d0dfaf4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.alerts
+  module:
+    - views
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: HptrYxPUTWfrQTwMJ9GgQHCa8MtZGY5Aszi3pXxw04s
+id: openy_rose_views_block__alerts_footer_alerts_local
+theme: openy_rose
+region: pre_footer
+weight: -6
+provider: null
+plugin: 'views_block:alerts-footer_alerts_local'
+settings:
+  id: 'views_block:alerts-footer_alerts_local'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

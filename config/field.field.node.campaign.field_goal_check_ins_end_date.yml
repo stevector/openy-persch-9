@@ -1,0 +1,23 @@
+uuid: 9ab4ba17-ebaa-468d-8470-8f9048103794
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_goal_check_ins_end_date
+    - node.type.campaign
+  module:
+    - datetime
+_core:
+  default_config_hash: dNfnC0nEHwk7AAClRu7k_iCMBrAzznJcuo8qeybCnQA
+id: node.campaign.field_goal_check_ins_end_date
+field_name: field_goal_check_ins_end_date
+entity_type: node
+bundle: campaign
+label: 'Goal check-ins end date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

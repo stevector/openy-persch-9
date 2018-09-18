@@ -1,0 +1,21 @@
+uuid: 2c3c1817-c617-4e9a-8de6-811a40df6d1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: '-ZGSI8DPL5ACB31Ilw9jUuVsU6aJzMopEt8ceHb6wyU'
+id: node.field_campaign_pages
+field_name: field_campaign_pages
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

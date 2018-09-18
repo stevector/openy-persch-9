@@ -1,0 +1,29 @@
+uuid: ace46e70-a3af-4ead-800d-2a9ef937b8d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.interstitial_page
+  module:
+    - datalayer
+    - text
+third_party_settings:
+  datalayer:
+    expose: 0
+    label: body
+_core:
+  default_config_hash: DRAolAeB73T3J7yk0nXCTaq25i_Zf26DFzY6WDYc0tk
+id: node.interstitial_page.body
+field_name: body
+entity_type: node
+bundle: interstitial_page
+label: 'Dialog text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

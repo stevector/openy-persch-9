@@ -1,0 +1,25 @@
+uuid: 005f5c52-511e-4a49-88d3-b63704801172
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - taxonomy
+_core:
+  default_config_hash: wt5XsNyFIZVRO61uVuG1I9J76gGKdTAnQHACn6QSnBU
+id: taxonomy_term.field_activity_icon
+field_name: field_activity_icon
+entity_type: taxonomy_term
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

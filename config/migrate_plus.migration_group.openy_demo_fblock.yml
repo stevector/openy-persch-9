@@ -1,0 +1,14 @@
+uuid: 287eade8-02e6-4c25-912d-731e804bc2fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_bfooter
+_core:
+  default_config_hash: gthPWBP8xZ0GPD64ufj1xi9F3NXHrQ8h7el35YNXKUg
+id: openy_demo_fblock
+label: Block
+description: 'Imports blocks that are being used in footer.'
+source_type: null
+module: openy_demo_bfooter
+shared_configuration: null

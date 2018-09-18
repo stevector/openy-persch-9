@@ -1,0 +1,21 @@
+uuid: 07f564d0-8a8c-41a0-a7d5-d47db3f7e7df
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: t9a7uPL_T8KEyfB2Dq6aNpDsl3mbMjemiRYYa72LtnI
+id: paragraph.field_prgrf_sl_description
+field_name: field_prgrf_sl_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: eb9bd1b9-2b9d-4c3b-92b7-1dc45fd39e53
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EEjwDEpvSdeofr38WXBa8PFvXykXdWv_VkEO9Y4Cp8o
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access popups'
+  - 'view media'

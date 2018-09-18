@@ -1,0 +1,11 @@
+uuid: 6ec2e093-e451-48b0-9d81-af4b57e3dd7d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4bEO07rgm-6CugmOHcfGJE6tUr6YROPdfW-Kqw8VHjY
+id: latest_blog_posts_branch
+label: 'Latest blog posts (branch)'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

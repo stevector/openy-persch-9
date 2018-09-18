@@ -1,0 +1,25 @@
+uuid: 0082a7c8-e22b-426e-a4e4-b74514e213c1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - social_feed_fetcher
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: 8aZVdwfYlgdOdJ8M0DJAcy_D3o8Myc5BrW_HDYdhL3c
+id: node.field_posted
+field_name: field_posted
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

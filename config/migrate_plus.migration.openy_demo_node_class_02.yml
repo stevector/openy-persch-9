@@ -1,0 +1,773 @@
+uuid: d0f799ff-079e-42cd-8fbb-c68e63411a9b
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nclass
+_core:
+  default_config_hash: yCxsJFmiYOe2pwHMzERI67q9LD6RCoCi2XmLn7qSGt0
+id: openy_demo_node_class_02
+migration_tags: {  }
+migration_group: openy_demo_nclass
+label: 'Create demo class nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: sports_classes_and_workshops_youth_fitness_challenge
+      title: 'Youth Fitness Challenge'
+      activity: sports_classes_and_workshops_youth
+      body: "<p>\nCan you Lift an Elephant? Youth ages 10 - 14 have 8 weeks to leg press,\nback extension, row, bicep curl and shoulder press 14,000 pounds (the\nweight of and elephant). Pick up your workout tracker at the membership\ndesk, do the work, and turn it back in at the end of the challenge to\nget your shirt.\n</p>\n"
+      content:
+        -
+          content_id: sports_classes_and_workshops_youth_fitness_challenge
+        -
+          content_id: popup_sports_classes_and_workshops_youth_fitness_challenge
+      sidebar:
+        -
+          sidebar_id: sports_classes_and_workshops_youth_fitness_challenge
+    -
+      id: sports_classes_and_workshops_youth_homezone
+      title: HomeZone
+      activity: sports_classes_and_workshops_youth
+      body: "<p>\nThe Home School program has been designed to encourage children to get\nup and move. Each week they will participate in swimming, art, staff led\ngames, and sports or fitness activities. Children will be divided into\nage groups for PE and by swim level for swim lessons. No class the week\nof April 10-14 (Spring Break) or April 17-21 due to remodeling in the\nfamily wing.\n</p>\n"
+      content:
+        -
+          content_id: sports_classes_and_workshops_youth_homezone
+        -
+          content_id: popup_sports_classes_and_workshops_youth_homezone
+      sidebar:
+        -
+          sidebar_id: sports_classes_and_workshops_youth_homezone
+    -
+      id: health_and_wellness_workshops_aoa_senior_health_and_fitness_day
+      title: 'AOA National Senior Health and Fitness Day'
+      activity: health_and_wellness_workshops
+      body: "<p>You, your friends and neighbors are invited to the 7th annual\ncelebration of National Senior Health and Fitness Day at the Northshore\nYMCA.\n<p>\n\n</p>\nCelebrate all you can do at the Y to increase your health and fitness.\n</p>\n\n<p>\nMeet our Y's Active Older Adult (AOA) Council members throughout the\nevent. They represent your interests.\n</p>\n\n<p>\nCome for the whole event or just the parts that interest you.\n<p>\n\n</p>\n12:00-3:00 pm AOA Program Highlights and Snacks ? Club Room A with AOA\nCouncil members\n</p>\n\n<p>\n12:15-1:15 pm Dance Class Demo ? Multi-Purpose Room\n</p>\n\n<p>\n1:00-3:00 pm ORCA ?TO-Go Bus Pass Kiosk ? Lobby\n<p>\n\n</p>\n1:30-2:30 pm Blood Pressure Checks &amp; Self-Monitoring Program Info\n? Club Room A with Jenny\n</p>\n\n<p>\n2:00-3:15 pm Light Summer Fare Cooking Demo ? Kitchen with Claire\n<p>\n<p>&nbsp;</p>\n</p>\nFree for all, registration requested</p>\n\n<p>&nbsp;</p>\n"
+      content:
+        -
+          content_id: health_and_wellness_workshops_aoa_senior_health_and_fitness_day
+        -
+          content_id: popup_health_n_well_workshops_aoa_senior_health_and_fitness_day
+      sidebar:
+        -
+          sidebar_id: health_and_wellness_workshops_aoa_senior_health_and_fitness_day
+    -
+      id: health_and_wellness_workshops_aoa_brain_agility_fee_spr_2017
+      title: 'AOA Brain Agility - Class Fee, Spring 2017'
+      activity: health_and_wellness_workshops
+      body: "<p>\nBrain Agility is about enhancing and maintaining your brain's ability\nto remember, stay focused, be aware and alert, and to enable you to\nenjoy life fully. Learn how your brain functions, how it ages, and how\nto care for it.\n</p>\n\n<p>\nALL participants in Brain Agility will register for this activity to\nreserve a spot in the class.\n</p>\n\n<p>\nNEW participants also need to register for the materials fee to receive\nthe binder containing the textbook and brain agility exercises that are\ndesigned to help adults maintain cognitive functioning and in many cases\nto help recover losses.\n</p>\n\n<p>\nClass dates are Tuesdays, April 25 through June 6, 2017.\n</p>\n"
+      content:
+        -
+          content_id: health_and_wellness_workshops_aoa_brain_agility_fee_spr_2017
+        -
+          content_id: popup_health_n_wellness_workshops_aoa_brain_agility_fee_spr_2017
+      sidebar:
+        -
+          sidebar_id: health_and_wellness_workshops_aoa_brain_agility_fee_spr_2017
+    -
+      id: health_and_wellness_workshops_aoa_brain_agility_mat_fee_spr_2017
+      title: 'AOA Brain Agility - Materials Fee, Spring 2017'
+      activity: health_and_wellness_workshops
+      body: "<p>\nOnly NEW participants in Brain Agility will register for this\nactivity to reserve their class materials. Returning participants do not\nregister for this activity as they will use class materials from the\nsession they previously attended.\n</p>\n\n<p>\nNew participants will receive a binder containing the text book and\nbrain agility exercises that are designed to help adults maintain\ncognitive functioning and in many cases to help recover losses.\n</p>\n\n<p>\nBrain Agility is about enhancing and maintaining your brain's ability\nto remember, stay focused, be aware and alert, and to enable you to\nenjoy life fully. Learn how your brain functions, how it ages, and how\nto care for it.\n</p>\n\n<p>\nThis program meets once per week for 1 hour and 30 minutes. Class\ndates are Tuesdays April 25 through June 6, 2017.\n</p>\n\n<p>&nbsp;</p>\n"
+      content:
+        -
+          content_id: health_and_wellness_workshops_aoa_brain_agility_mat_fee_spr_2017
+        -
+          content_id: popup_health_n_welln_wrkshops_aoa_brain_agility_mat_fee_spr_2017
+      sidebar:
+        -
+          sidebar_id: health_and_wellness_workshops_aoa_brain_agility_mat_fee_spr_2017
+    -
+      id: group_exercise_classes_hiit
+      title: HIIT
+      activity: group_exercise_classes
+      body: "<p>\nHigh Intensity Interval Training is a great way to burn fat! Moderate\nintensity intervals are alternated with high intensity intervals for a\nfull body workout.\n</p>\n"
+      content:
+        -
+          content_id: group_exercise_classes_hiit
+        -
+          content_id: popup_group_exercise_classes_hiit
+      sidebar:
+        -
+          sidebar_id: group_exercise_classes_hiit
+    -
+      id: group_exercise_classes_hiit_metabolic_conditioning
+      title: 'HIIT - Metabolic Conditioning'
+      activity: group_exercise_classes
+      body: "<p>\nHigh Intensity Interval Training is a great way to burn fat! Moderate\nintensity intervals are alternated with high intensity intervals for a\nfull body workout.\n</p>\n"
+      content:
+        -
+          content_id: group_exercise_classes_hiit_metabolic_conditioning
+        -
+          content_id: popup_group_exercise_classes_hiit_metabolic_conditioning
+      sidebar:
+        -
+          sidebar_id: group_exercise_classes_hiit_metabolic_conditioning
+    -
+      id: group_exercise_classes_moving_for_balance_spr_2017
+      title: 'Moving for Better Balance - Continuing Spring 2017'
+      activity: group_exercise_classes
+      body: "<p>\nThis class is for those who have taken the beginner series of Moving\nfor Better Balance. Class is free for facility members.\n</p>\n\n<p>\nImprove your balance, mobility, walking, and mental well-being in this\nadapted Tai Ji Quan program. You'll learn a variety of movements\ntailored to train balance and control body movements for performing\ndaily activities. As the movements are presented in a sequential\nmanner, regular participation is preferable and registration is\nrequired. Instructor Kathy Harris has years of experience working with\nactive older adults and those with physical limitations. Students are\nencouraged to wear comfortable clothing and shoes. Chairs available.\n</p>\n"
+      content:
+        -
+          content_id: group_exercise_classes_moving_for_balance_spr_2017
+        -
+          content_id: popup_group_exercise_classes_moving_for_balance_spr_2017
+      sidebar:
+        -
+          sidebar_id: group_exercise_classes_moving_for_balance_spr_2017
+    -
+      id: samll_group_training_youth_small_group_training_tween_girl_power
+      title: 'Small Group Training - Tween Girl Power!'
+      activity: samll_group_training_youth
+      body: "<p>\nLet the Y help your tween during these crucial adolescent years learn\nhow to grow stronger and more fit while having fun! We know that\nexercise helps everybody reduce anxiety and stress and improve\nself-esteem and that rings especially true for young people. Our\ncertified trainer can show your tween how to make fitness and healthy\nhabits a part of their lives forever. They will use a wide variety of\nequipment, including our PlayFit Exergames in the Youth Center, with the\nfocus on safety, movement, and fun!\n</p>\n"
+      content:
+        -
+          content_id: samll_group_training_youth_small_group_training_tween_girl_power
+        -
+          content_id: popup_smll_grp_train_youth_small_group_training_tween_girl_power
+      sidebar:
+        -
+          sidebar_id: samll_group_training_youth_small_group_training_tween_girl_power
+    -
+      id: samll_group_training_youth_small_group_training_tween_titans
+      title: 'Small Group Training - Tween Titans'
+      activity: samll_group_training_youth
+      body: "<p>\nTween Fitness (for boys 8-13) Let the Y help your tween during these\ncrucial adolescent years learn how to grow stronger and more fit while\nhaving fun! We know that exercise helps everybody reduce anxiety and\nstress and improve self-esteem and that rings especially true for young\npeople. Our certified trainer can show your tween how to make fitness\nand healthy habits a part of their lives forever. They will use a wide\nvariety of equipment, including our PlayFit exergames in the Youth\nCenter, with the focus on safety, movement, and fun!\n</p>\n"
+      content:
+        -
+          content_id: samll_group_training_youth_small_group_training_tween_titans
+        -
+          content_id: popup_smll_grp_training_youth_small_group_training_tween_titans
+      sidebar:
+        -
+          sidebar_id: samll_group_training_youth_small_group_training_tween_titans
+    -
+      id: pilates_reformer_10_private_1hr_sessions
+      title: 'Pilates Reformer - 10, private 1 hr sessions'
+      activity: personal_training
+      body: "<p>\nThis unique class is performed on a specialized piece of equipment\ncalled the Reformer. Pilates Reformer movements vary in intensity with\nan adjustable spring load while at the same time being easy on the\njoints. The extra support you get from these machines will help to\nengage the deeper muscles that stabilize your joints. The pace is\nmoderate, yet challenging and will strengthen the core and provide an\ninvigorating workout.\n</p>\n\n<p>\nPrivate, 1-hour session Facility member:$65 Community member:$85\n<br />\nPrivate, 3/1-hour sessions Facility member:$186 Community member:$246\n<br />\nPrivate, 6/1-hour sessions Facility member:$354 Community member:$475\n<br />\nPrivate, 10/1-hour sessions Facility member:$550 Community member:$750\n</p>\n"
+      content:
+        -
+          content_id: pilates_reformer_10_private_1hr_sessions
+        -
+          content_id: popup_pilates_reformer_10_private_1hr_sessions
+      sidebar:
+        -
+          sidebar_id: pilates_reformer_10_private_1hr_sessions
+    -
+      id: private_yoga_10_1hour_sessions
+      title: 'Private Yoga - 10, 1-hour sessions'
+      activity: personal_training
+      body: "<h6>\nPrivate yoga is an incredible way to cultivate your yoga practice in\na way that?s as individual as you are. Learn from a certified yoga\ninstructor and progress at your own pace in a private space.\n</h6>\n\n<ul>\n  <li>\n    Learn asanas at your own pace\n  </li>\n  <li>\n    Practice proper techniques and alignment\n  </li>\n  <li>\n    Master a challenging pose\n  </li>\n  <li>\n    Address specific training or injury recovery needs\n  </li>\n  <li>\n    Try something new\n  </li>\n</ul>\n\n<p>\nPrivate yoga sessions are available as single sessions or in packages.\nSee below for details.\n</p>\n\n<p>\n1 1-hour session $65\n</p>\n\n<p>\n3 1-hour sessions $185\n</p>\n\n<p>\n6 1-hour sessions $351\n</p>\n\n<p>\n10 1-hour sessions $552\n</p>\n"
+      content:
+        -
+          content_id: private_yoga_10_1hour_sessions
+        -
+          content_id: popup_private_yoga_10_1hour_sessions
+      sidebar:
+        -
+          sidebar_id: private_yoga_10_1hour_sessions
+    -
+      id: pilates_reformer_duet_10_1hour_sessions
+      title: 'Pilates Reformer - Duet - 10, 1 hour sessions'
+      activity: personal_training
+      body: "<p>\nThis unique class is performed on a specialized piece of equipment\ncalled the Reformer. Pilates Reformer movements vary in intensity with\nan adjustable spring load while at the same time being easy on the\njoints. The extra support you get from these machines will help to\nengage the deeper muscles that stabilize your joints. The pace is\nmoderate, yet challenging and will strengthen the core and provide an\ninvigorating workout.\n</p>\n\n<p>\nThis session is for 2 people.\n</p>\n\n<p>\nDuet prices are listed per person\n</p>\n\n<p>\nDuet, 1-hour session Facility member:$49/person Community\nmember:$75/person<br />\nDuet, 3/1-hour sessions Facility member:$141/person Community\nmember:$220/person<br />\nDuet, 6/1-hour sessions Facility member:$264/person Community\nmember:$420/person<br />\nDuet, 10/1-hour sessions Facility member:$420/person Community\nmember:$680/person\n</p>\n"
+      content:
+        -
+          content_id: pilates_reformer_duet_10_1hour_sessions
+        -
+          content_id: popup_pilates_reformer_duet_10_1hour_sessions
+      sidebar:
+        -
+          sidebar_id: pilates_reformer_duet_10_1hour_sessions
+    -
+      id: partner_personal_training_1_session
+      title: 'Partner Personal Training - 1 session'
+      activity: personal_training
+      body: "<p>\nYou and your partner will receive personalized interaction with direct\ninstruction that focuses on achieving realistic goals. A YMCA Personal\nTrainer will design individualized workout sessions that cater to your\ncurrent fitness level and experience.\n</p>\n\n<p>\nPrices reflect the total cost for both partners. One partner is\nresponsible for registration and payment.\n</p>\n\n<p>\nFacility Members only.\n</p>\n\n<p>\n1 session = $85<br />\n3 sessions = $243<br />\n6 sessions = $462<br />\n10 sessions = $730</p>\n\n<p>&nbsp;</p>\n"
+      content:
+        -
+          content_id: partner_personal_training_1_session
+        -
+          content_id: popup_partner_personal_training_1_session
+      sidebar:
+        -
+          sidebar_id: partner_personal_training_1_session
+    -
+      id: health_improvement_livestrong_at_the_y
+      title: 'LIVESTRONG at the YMCA'
+      activity: health_improvement
+      body: "<p>\nCancer is a life-changing disease that takes a tremendous physical and\nemotional toll on those affected. The Y and LIVESTRONG have joined\ntogether to create LIVESTRONG at the Y, a research-based physical\nactivity and well-being program designed to help adults currently\nbattling cancer as well as cancer survivors reclaim their total health.\nParticipants work with Y staff who are trained in supportive cancer care\nto safely achieve such goals as building muscle mass and strength,\nincreasing flexibility and endurance, and improving confidence and\nself-esteem. By focusing on the whole person and not the disease,\nLIVESTRONG at the Y helps people move beyond cancer in mind, body, and\nspirit.\n</p>\n"
+      content:
+        -
+          content_id: health_improvement_livestrong_at_the_y
+        -
+          content_id: popup_health_improvement_livestrong_at_the_y
+      sidebar:
+        -
+          sidebar_id: health_improvement_livestrong_at_the_y
+    -
+      id: health_improvement_nutrition_consultation_initial
+      title: 'Nutrition Consultation - Initial'
+      activity: health_improvement
+      body: "<p>\nGet real answers to help dispel myths and misunderstandings about\nnutrition and dieting. A one-on-one consultation with our Registered\nDietitian, Susie Fox, will move you forward on your path to healthy\nliving. You will get answers to your questions about dieting and weight\nloss, nutrition needs for every day or for serious athletes, pre and\npost natal nutrition, and information to create a nutrition plan that\nfits you and your lifestyle. Find the tools you need to be successful\nin your healthy living goals.\n</p>\n\n<p>\nInitial 20-minute consultation for Facility Members: Free\n</p>\n\n<p>\nInitial 30-minute consultation for Community Members: $20\n</p>\n"
+      content:
+        -
+          content_id: health_improvement_nutrition_consultation_initial
+        -
+          content_id: popup_health_improvement_nutrition_consultation_initial
+      sidebar:
+        -
+          sidebar_id: health_improvement_nutrition_consultation_initial
+    -
+      id: health_improvement_activly_changing_together
+      title: 'ACT! Actively Changing Together'
+      activity: health_improvement
+      body: "<p>\nACT! is a 12 week program for youth 8-11 years and their parents\npromoting healthy nutrition, activity and lifestyles developed in\npartnership with providers and professionals at Seattle Children's\nHospital and the Y of Greater Seattle. By actively changing together,\nparents and kids can learn how to healthy lifestyle habits as a family.\nSpecially trained Y staff offer guidance and encouragement for eating\nwell, playing often and preventing health conditions associated with\nbeing overweight. Here are more details about the program: One 90-minute\ngroup session per week for 12 weeks. Y family membership to use between\nweekly sessions. Energizing games, activities and light meal. Needs\nphysician referral for participation.\n</p>\n"
+      content:
+        -
+          content_id: health_improvement_activly_changing_together
+        -
+          content_id: popup_health_improvement_activly_changing_together
+      sidebar:
+        -
+          sidebar_id: health_improvement_activly_changing_together
+    -
+      id: climbing_adult_rock_climbing_sept
+      title: 'Climbing - Adult Rock Climbing - September'
+      activity: climbing_adult
+      body: "<p>\nTuesdays, Sept 5-26, 6pm-7pm. Adult Rock Climbing.\n</p>\n\n<p>\nAges 14+. This introductory class to rock climbing is perfect for teens\nand adults who want to learn the basics and increase their strength.\nRock climbing is a great way to get a unique work out and be social at\nthe same time! This is an indoor class at the Dale Turner Climbing\nTower, located in the gym. We will cover skills such as climbing\ntechnique, stretches, climbing commands, gear fitting, knot tying, and\nrope belaying. Our skilled staff will take you on an adventure that is\nsure to take you to the next level.\n</p>\n"
+      content:
+        -
+          content_id: climbing_adult_rock_climbing_sept
+        -
+          content_id: popup_climbing_adult_rock_climbing_sept
+      sidebar:
+        -
+          sidebar_id: climbing_adult_rock_climbing_sept
+    -
+      id: climbing_adult_rock_climbing_oct
+      title: 'Climbing - Adult Rock Climbing - October'
+      activity: climbing_adult
+      body: "<p>\nTuesdays, Oct 3-24, 6pm-7pm. Adult Rock Climbing.\n</p>\n\n<p>\nAges 14+. This introductory class to rock climbing is perfect for teens\nand adults who want to learn the basics and increase their strength.\nRock climbing is a great way to get a unique work out and be social at\nthe same time! This is an indoor class at the Dale Turner Climbing\nTower, located in the gym. We will cover skills such as climbing\ntechnique, stretches, climbing commands, gear fitting, knot tying, and\nrope belaying. Our skilled staff will take you on an adventure that is\nsure to take you to the next level.\n</p>\n"
+      content:
+        -
+          content_id: climbing_adult_rock_climbing_oct
+        -
+          content_id: popup_climbing_adult_rock_climbing_oct
+      sidebar:
+        -
+          sidebar_id: climbing_adult_rock_climbing_oct
+    -
+      id: climbing_adult_parent_child_sept
+      title: 'Climbing - Parent/Child Climbing - September'
+      activity: climbing_adult
+      body: "<p>\nMondays, Sept 11-25, 6pm-7pm. Parent AND Child Rock Climbing! $35/PAIR.\n</p>\n\n<p>\nAges 5+. This introductory class to rock climbing is perfect for all\nages, designed to be shared and experienced between a Parent and Child\npair. Great for parents and children, grandparents and grandchildren, or\nany Adult and Child family relationship! Rock climbing is a great way to\nget a unique work out and be social at the same time! We will cover\nskills such as climbing technique, stretches, climbing commands, gear\nfitting, knot tying, and rope belaying. Our skilled staff will take you\non an adventure that is sure to take you and your family to the next\nlevel.\n</p>\n"
+      content:
+        -
+          content_id: climbing_adult_parent_child_sept
+        -
+          content_id: popup_climbing_adult_parent_child_sept
+      sidebar:
+        -
+          sidebar_id: climbing_adult_parent_child_sept
+    -
+      id: climbing_adult_parent_child_oct
+      title: 'Climbing - Parent/Child Climbing - October'
+      activity: climbing_adult
+      body: "<p>\nMondays, Oct 2-23, 6pm-7pm. Parent AND Child Rock Climbing! $50/PAIR.\n</p>\n\n<p>\nAges 5+. This introductory class to rock climbing is perfect for all\nages, designed to be shared and experienced between a Parent and Child\npair. Great for parents and children, grandparents and grandchildren, or\nany Adult and Child family relationship! Rock climbing is a great way to\nget a unique work out and be social at the same time! We will cover\nskills such as climbing technique, stretches, climbing commands, gear\nfitting, knot tying, and rope belaying. Our skilled staff will take you\non an adventure that is sure to take you and your family to the next\nlevel.\n</p>\n"
+      content:
+        -
+          content_id: climbing_adult_parent_child_oct
+        -
+          content_id: popup_climbing_adult_parent_child_oct
+      sidebar:
+        -
+          sidebar_id: climbing_adult_parent_child_oct
+    -
+      id: small_group_and_specialty_training_adaptive_yoga
+      title: 'Small Group Training - Adaptive Yoga'
+      activity: small_group_and_specialty_training
+      body: "<p>\nDiscover the benefits of a yoga practice designed for your body's unique\nneeds. Receive extra support whether you are exploring yoga for the\nfirst time or pursuing a particular goal.\n</p>\n\n<p>\nFacility members only\n</p>\n"
+      content:
+        -
+          content_id: small_group_and_specialty_training_adaptive_yoga
+        -
+          content_id: popup_small_group_and_specialty_training_adaptive_yoga
+      sidebar:
+        -
+          sidebar_id: small_group_and_specialty_training_adaptive_yoga
+    -
+      id: small_group_and_specialty_training_pilates_reformer_level_1
+      title: 'Small Group Training - Pilates Reformer Level I'
+      activity: small_group_and_specialty_training
+      body: "<p>\nThis unique class is performed on a specialized piece of equipment\ncalled the Reformer. Pilates Reformer movements vary in intensity with\nan adjustable spring load while at the same time being easy on the\njoints. The extra support you get from these machines will help to\nengage the deeper muscles that stabilize your joints. The pace is\nmoderate, yet challenging and will strengthen the core and provide an\ninvigorating workout.\n</br>\nLevel 2 focuses on building strength and endurance through more advanced\nexercises that contain additional choreography and coordination.\nParticipants must have an understanding of basic principles and\nexercises as learned in Level 1. Pace will be matched to participant's\nabilities.\n</p>\n\n<p>\nClass is taught in a small class setting of 4 students to 1 instructor\nto ensure personal attention. We are not able to refund for missed\nsessions but will do our best to provide up to 1 make-up session, with\nmake-up date provided by the instructor.\n</p>\n\n<p>\nA 7 week session is $154/session ($22/class) for Facility members and\n$238/session ($34/class) for Community Members.\n</p>\n"
+      content:
+        -
+          content_id: small_group_and_specialty_training_pilates_reformer_level_1
+        -
+          content_id: popup_smll_group_and_specialty_training_pilates_reformer_level_1
+      sidebar:
+        -
+          sidebar_id: small_group_and_specialty_training_pilates_reformer_level_1
+    -
+      id: small_group_and_specialty_training_pilates_reformer_intro
+      title: 'Small Group Training - Pilates Reformer Intro'
+      activity: small_group_and_specialty_training
+      body: "<p>\nThis unique class is performed on a specialized piece of equipment\ncalled the Reformer. Pilates Reformer movements vary in intensity with\nan adjustable spring load while at the same time being easy on the\njoints. The extra support you get from these machines will help to\nengage the deeper muscles that stabilize your joints. The pace is\nmoderate, yet challenging and will strengthen the core and provide an\ninvigorating workout.\n</br>\nIntro to Reformer focuses on the basic principles and foundational\nexercises of Reformer work. Breathing, body alignment, stabilization,\nand core strengthening are all highlighted. Pace is slower and perfect\nfor those new to the Reformer apparatus.\n</p>\n\n<p>\nLevel 1 focuses on expanding knowledge and application of basic Reformer\nexercises. Participants must have taken Intro to Reformer or have some\nexperience with Reformer in order to take a Level 1 class. Additional\nexercises that strengthen the core and connect core to the periphery are\nexplored. Pace may be slow or quick.\n</p>\n\n<p>\nClass is taught in a small class setting of 4 students to 1 instructor\nto ensure personal attention. We are not able to refund for missed\nsessions but will do our best to provide up to 1 make-up session, with\nmake-up date provided by the instructor.\n</p>\n\n<p>\nPriority registration is given to currently registered class members.\n</p>\n\n<p>\nA 7 week session is $154/session ($22/class) for Facility members and\n$238/session ($34/class) for Community Members.\n</p>\n\n<p>\nChildcare available at Kid's Corner.\n</p>\n"
+      content:
+        -
+          content_id: small_group_and_specialty_training_pilates_reformer_intro
+        -
+          content_id: popup_small_group_and_specialty_training_pilates_reformer_intro
+      sidebar:
+        -
+          sidebar_id: small_group_and_specialty_training_pilates_reformer_intro
+    -
+      id: small_group_and_specialty_training_pilates_reformer_level_1_2
+      title: 'Small Group Training - Pilates Reformer Level I/II'
+      activity: small_group_and_specialty_training
+      body: "<p>\nThis unique class is performed on a specialized piece of equipment\ncalled the Reformer. Pilates Reformer movements vary in intensity with\nan adjustable spring load while at the same time being easy on the\njoints. The extra support you get from these machines will help to\nengage the deeper muscles that stabilize your joints. The pace is\nmoderate, yet challenging and will strengthen the core and provide an\ninvigorating workout.\n</br>\nIntro to Reformer focuses on the basic principles and foundational\nexercises of Reformer work. Breathing, body alignment, stabilization,\nand core strengthening are all highlighted. Pace is slower and perfect\nfor those new to the Reformer apparatus.\n</p>\n\n<p>\nLevel 1 focuses on expanding knowledge and application of basic Reformer\nexercises. Participants must have taken Intro to Reformer or have some\nexperience with Reformer in order to take a Level 1 class. Additional\nexercises that strengthen the core and connect core to the periphery\nare explored. Pace may be slow or quick.\n</p>\n\n<p>\nClass is taught in a small class setting of 4 students to 1 instructor\nto ensure personal attention. We are not able to refund for missed\nsessions but will do our best to provide up to 1 make-up session, with\nmake-up date provided by the instructor.\n</p>\n\n<p>\nPriority registration is given to currently registered class members.\n</p>\n\n<p>\nA 7 week session is $154/session ($22/class) for Facility members and\n$238/session ($34/class) for Community Members.\n</p>\n"
+      content:
+        -
+          content_id: small_group_and_specialty_training_pilates_reformer_level_1_2
+        -
+          content_id: popup_smll_grp_and_specialty_training_pilates_reformer_level_1_2
+      sidebar:
+        -
+          sidebar_id: small_group_and_specialty_training_pilates_reformer_level_1_2
+    -
+      id: weight_loss_lose_to_win_men
+      title: 'Lose to Win for Men - Weight Loss Program'
+      activity: weight_loss
+      body: "<p>\nThis program is a great way to learn sustainable ways to eat healthier,\nmove more and lose weight. There are no gimmicks and no restrictive\napproaches, just the tools you need to make the necessary changes in\nyour lifestyle to achieve your weight loss goals. This program discusses\nthe importance of physical activity and nutrition, while also discussing\nmotivation, obstacles, and pitfalls that make losing weight (and keeping\nit off) challenging. A weekly, group based, one hour meeting provides a\nsupportive network of others working on similar goals to help when the\ngoing gets tough and to celebrate successes along the way! Join this\nFREE program today and get started on creating lasting change!\nMembership to the YMCA is required in order to participate.\n</p>\n"
+      content:
+        -
+          content_id: weight_loss_lose_to_win_men
+        -
+          content_id: popup_weight_loss_lose_to_win_men
+      sidebar:
+        -
+          sidebar_id: weight_loss_lose_to_win_men
+    -
+      id: weight_loss_lose_to_win
+      title: 'Lose to Win - Weight Loss Program'
+      activity: weight_loss
+      body: "<p>\nThis program is a great way to learn sustainable ways to eat healthier,\nmove more and lose weight. There are no gimmicks and no restrictive\napproaches, just the tools you need to make the necessary changes in\nyour lifestyle to achieve your weight loss goals. This program discusses\nthe importance of physical activity and nutrition, while also discussing\nmotivation, obstacles, and pitfalls that make losing weight (and keeping\nit off) challenging. A weekly, group based, one hour meeting provides a\nsupportive network of others working on similar goals to help when the\ngoing gets tough and to celebrate successes along the way! Join this\nFREE program today and get started on creating lasting change!\nMembership to the YMCA is required in order to participate.\n</p>\n"
+      content:
+        -
+          content_id: weight_loss_lose_to_win
+        -
+          content_id: popup_weight_loss_lose_to_win
+      sidebar:
+        -
+          sidebar_id: weight_loss_lose_to_win
+    -
+      id: before_after_school_child_care_2016_17_woodmoor_non_school_days
+      title: '2016/17 Woodmoor - (f) Non-School Days'
+      activity: before_and_after_school_child_care
+      body: "<p>\nOur program at Woodmoor Elementary School helps kids reach their fullest\npotential by promoting education, health, and social development. Your\nchild will have many opportunities to spend time reading or studying\nwith one of our caring staff, participate in fun, physical activities,\nor learn a new skill. Most importantly, children learn how to be their\nbest selves. That makes for confident kids today and contributing,\nengaged adults tomorrow. Program Features: A safe place to learn, have\nfun and get active. Weekly activities include art, science, cooking,\nliteracy and more. 30 minutes of physical activity & literacy activities\nprovided daily. 30 minutes of homework help provided daily.\n</p>\n"
+      content:
+        -
+          content_id: before_after_school_child_care_2016_17_woodmoor_non_school_days
+        -
+          content_id: popup_b4_aft_school_child_care_2016_17_woodmoor_non_school_days
+      sidebar:
+        -
+          sidebar_id: before_after_school_child_care_2016_17_woodmoor_non_school_days
+    -
+      id: before_after_school_child_care_2016_17_woodmoor_after_plus
+      title: '2016/17 Woodmoor - (b) After Plus Care'
+      activity: before_and_after_school_child_care
+      body: "<p>\nOur program at Woodmoor Elementary School helps kids reach their fullest\npotential by promoting education, health, and social development. Your\nchild will have many opportunities to spend time reading or studying\nwith one of our caring staff, participate in fun, physical activities,\nor learn a new skill. Most importantly, children learn how to be their\nbest selves. That makes for confident kids today and contributing,\nengaged adults tomorrow. Program Features: A safe place to learn, have\nfun and get active. Weekly activities include art, science, cooking,\nliteracy and more. 30 minutes of physical activity & literacy activities\nprovided daily. 30 minutes of homework help provided daily.\n</p>\n"
+      content:
+        -
+          content_id: before_after_school_child_care_2016_17_woodmoor_after_plus
+        -
+          content_id: popup_before_after_school_child_care_2016_17_woodmoor_after_plus
+      sidebar:
+        -
+          sidebar_id: before_after_school_child_care_2016_17_woodmoor_after_plus
+    -
+      id: before_after_school_child_care_2016_17_woodmoor_after
+      title: '2016/17 Woodmoor - (c) After Care'
+      activity: before_and_after_school_child_care
+      body: "<p>\nOur program at Woodmoor Elementary School helps kids reach their fullest\npotential by promoting education, health, and social development. Your\nchild will have many opportunities to spend time reading or studying\nwith one of our caring staff, participate in fun, physical activities,\nor learn a new skill. Most importantly, children learn how to be their\nbest selves. That makes for confident kids today and contributing,\nengaged adults tomorrow. Program Features: A safe place to learn, have\nfun and get active. Weekly activities include art, science, cooking,\nliteracy and more. 30 minutes of physical activity & literacy activities\nprovided daily. 30 minutes of homework help provided daily.\n</p>\n\n<p>\nFacility members only\n</p>\n"
+      content:
+        -
+          content_id: before_after_school_child_care_2016_17_woodmoor_after
+        -
+          content_id: popup_before_after_school_child_care_2016_17_woodmoor_after
+      sidebar:
+        -
+          sidebar_id: before_after_school_child_care_2016_17_woodmoor_after
+    -
+      id: before_after_school_child_care_2016_17_sunrise_before_after
+      title: '2016/17 Sunrise - (a) Before and After Care'
+      activity: before_and_after_school_child_care
+      body: "<p>\nOur program at Sunrise Elementary School helps kids reach their fullest\npotential by promoting education, health, and social development. Your\nchild will have many opportunities to spend time reading or studying\nwith one of our caring staff, participate in fun, physical activities,\nor learn a new skill. Most importantly, children learn how to be their\nbest selves. That makes for confident kids today and contributing,\nengaged adults tomorrow. Program Features: A safe place to learn, have\nfun and get active. Weekly activities include art, science, cooking,\nliteracy and more. 30 minutes of physical activity & literacy activities\nprovided daily. 30 minutes of homework help provided daily.\n</p>\n"
+      content:
+        -
+          content_id: before_after_school_child_care_2016_17_sunrise_before_after
+        -
+          content_id: popup_b4_after_school_child_care_2016_17_sunrise_before_after
+      sidebar:
+        -
+          sidebar_id: before_after_school_child_care_2016_17_sunrise_before_after
+    -
+      id: preschool_child_care_2016_17_northshore_pre_k_4_5yrs
+      title: '2016/17 Northshore - Pre-K Child Care (4 - 5yrs)'
+      activity: preschool_child_care
+      body: "<p>\nIn Y Preschool programs your child will develop skills to build\ncharacter values and self-esteem, and improve kindergarten readiness.\nWe base our educational and guidance decisions for children on our\nknowledge of child development. Our number one goal is to provide the\nkind of environment and influence that encourage all children to become\ncreative, independent and responsible students who can make positive\nchoices for themselves. Select a location below to contact one of our\nexperienced Program Directors to get more information and to schedule a\nsite visit. We look forward to meeting you!\n</p>\n"
+      content:
+        -
+          content_id: preschool_child_care_2016_17_northshore_pre_k_4_5yrs
+        -
+          content_id: popup_preschool_child_care_2016_17_northshore_pre_k_4_5yrs
+      sidebar:
+        -
+          sidebar_id: preschool_child_care_2016_17_northshore_pre_k_4_5yrs
+    -
+      id: preschool_child_care_2016_17_northshore_preschool_30m_4yr
+      title: '2016/17 Northshore- Preschool Child Care (30m-4yr)'
+      activity: preschool_child_care
+      body: "<p>\nIn Y Preschool programs your child will develop skills to build\ncharacter values and self-esteem, and improve kindergarten readiness.\nWe base our educational and guidance decisions for children on our\nknowledge of child development. Our number one goal is to provide the\nkind of environment and influence that encourage all children to become\ncreative, independent and responsible students who can make positive\nchoices for themselves. Select a location below to contact one of our\nexperienced Program Directors to get more information and to schedule a\nsite visit. We look forward to meeting you!\n</p>\n"
+      content:
+        -
+          content_id: preschool_child_care_2016_17_northshore_preschool_30m_4yr
+        -
+          content_id: popup_preschool_child_care_2016_17_northshore_preschool_30m_4yr
+      sidebar:
+        -
+          sidebar_id: preschool_child_care_2016_17_northshore_preschool_30m_4yr
+    -
+      id: discovery_day_camp_drop_off_carol_edwards_ctr_2017
+      title: 'Discovery Camp: Drop-off - Carol Edwards Ctr. 2017'
+      activity: discovery_day_camp
+      body: "<p>\nExplore fun themes like Under the Sea and Medieval Madness through art,\nscience, storytelling and field trips.\n</p>\n"
+      content:
+        -
+          content_id: discovery_day_camp_drop_off_carol_edwards_ctr_2017
+        -
+          content_id: popup_discovery_day_camp_drop_off_carol_edwards_ctr_2017
+      sidebar:
+        -
+          sidebar_id: discovery_day_camp_drop_off_carol_edwards_ctr_2017
+    -
+      id: discovery_day_camp_drop_off_kenmore_elementary_2017
+      title: 'Discovery Camp: Drop-off - Kenmore Elementary 2017'
+      activity: discovery_day_camp
+      body: "<p>\nExplore fun themes like Under the Sea and Jungle Safari through art,\nscience, storytelling and field trips.\n</p>\n"
+      content:
+        -
+          content_id: discovery_day_camp_drop_off_kenmore_elementary_2017
+        -
+          content_id: popup_discovery_day_camp_drop_off_kenmore_elementary_2017
+      sidebar:
+        -
+          sidebar_id: discovery_day_camp_drop_off_kenmore_elementary_2017
+    -
+      id: discovery_day_camp_drop_off_Northshore_ymca_2017
+      title: 'Discovery Camp: Drop-off - Northshore YMCA 2017'
+      activity: discovery_day_camp
+      body: "<p>\nExplore fun themes like Under the Sea and Medieval Madness through art,\nscience, storytelling and field trips. Transportation provided from the\nNorthshore YMCA to Kenmore Elementary where the program is based out of.\n</p>\n"
+      content:
+        -
+          content_id: discovery_day_camp_drop_off_Northshore_ymca_2017
+        -
+          content_id: popup_discovery_day_camp_drop_off_Northshore_ymca_2017
+      sidebar:
+        -
+          sidebar_id: discovery_day_camp_drop_off_Northshore_ymca_2017
+    -
+      id: bold_one_wk_expeditions_cascade_challenge
+      title: 'BOLD Cascade Challenge'
+      activity: bold_one_week_expeditions
+      body: "<p>\nDo you want to get more out of your summer vacation? Then accept the\nchallenge...The Cascade Challenge! This one week backpacking expedition\nfor high school aged students promises to be a highlight of one’s\nsummer. You will spend this glorious week exploring beautiful mountain\nlandscapes and swimming in glacier-fed lakes. You will meet new friends,\nbonding over your epic day on the trail while you cook delicious meals\nby the fire underneath the starry sky. You will end this epic adventure\nwith new wilderness travel skills, leadership tools, and friends and\nmemories that will last a lifetime. The leadership and technical skills\nthat you gain on this trip will help you rise to any challenge you may\nface, both in the woods and back home!\n</p>\n"
+      content:
+        -
+          content_id: bold_one_wk_expeditions_cascade_challenge
+        -
+          content_id: popup_bold_one_wk_expeditions_cascade_challenge
+      sidebar:
+        -
+          sidebar_id: bold_one_wk_expeditions_cascade_challenge
+    -
+      id: bold_one_wk_expeditions_backpacking_adventure_discovery_olympics
+      title: 'A BOLD Backpacking Adventure: Discovery in the Olympics'
+      activity: bold_one_week_expeditions
+      body: "<p>\nThis journey is a magical one week adventure on the Olympic Coast for\nstudents entering or already in high school. A land of barking seals,\nmassive trees, and constant waves- the Olympic Coast makes the perfect\nbackdrop for this backpacking expedition. You will trek in the lush\nrainforest, hike on sandy beaches, witness soaring bald eagles, and\nexplore vibrant tide-pools filled with marine wild life. Your adventure\nwill take you up and over headlands, camping each night just above the\nPacific Ocean where you will watch dramatic sunsets and share epic\nstories around the campfire.\n</p>\n"
+      content:
+        -
+          content_id: bold_one_wk_expeditions_backpacking_adventure_discovery_olympics
+        -
+          content_id: popup_bld_1_wk_exped_backpacking_adventure_discovery_olympics
+      sidebar:
+        -
+          sidebar_id: bold_one_wk_expeditions_backpacking_adventure_discovery_olympics
+    -
+      id: bold_one_wk_expeditions_river_and_rocks
+      title: 'BOLD Rivers and Rocks'
+      activity: bold_one_week_expeditions
+      body: "<p>\nEscaping the soggy confines of Seattle to the sunny climbing and rafting\nhaven of Central Oregon, this trip is a true adventure! You will get to\nput your climbing skills to the test on the incredible landscape of\nSmith Rock State Park, which is home to some of the greatest climbs in\nthe world. After soaking in the sun on the rock wall, you and your team\nwill face new exciting challenges as you navigate the rapids on the\npicturesque Deschutes River. Challenging yourself on the mighty cliffs\nand rushing rivers of this region will leave you with new skills, and a\nsense of awe of the amazing landscapes that surround us. This trip\npromises to be the highlight of your summer!\n</p>\n"
+      content:
+        -
+          content_id: bold_one_wk_expeditions_river_and_rocks
+        -
+          content_id: popup_bold_one_wk_expeditions_river_and_rocks
+      sidebar:
+        -
+          sidebar_id: bold_one_wk_expeditions_river_and_rocks
+    -
+      id: bold_one_wk_expeditions_fishing_and_backpacking_north_cascades
+      title: 'BOLD Fishing and Backpacking in the North Cascades'
+      activity: bold_one_week_expeditions
+      body: "<p>\nHigh in the Cascade Mountains is a land of clear mountain lakes full of\nfish, meadows filled with wildflowers, and snowcapped peaks. You will\nlearn the basics of backpacking and fishing and hike through old growth\nforests, be captivated by dramatic mountain landscapes, fish for trout,\nand develop leadership skills in ways you never thought possible. After\ntaking on the challenge of the wilderness you will know you can overcome\nany obstacle placed before you.\n</p>\n"
+      content:
+        -
+          content_id: bold_one_wk_expeditions_fishing_and_backpacking_north_cascades
+        -
+          content_id: popup_bld_1_wk_exped_fishing_and_backpacking_north_cascades
+      sidebar:
+        -
+          sidebar_id: bold_one_wk_expeditions_fishing_and_backpacking_north_cascades
+    -
+      id: earth_service_corps_about_yesc
+      title: 'Earth Service Corps About YESC'
+      activity: earth_service_corps
+      body: "<p>\nYMCA Earth Service Corps emerged out of an idea Bill Sieverling, then\ndirector of the YMCA of the USA’s International Office in Asia, proposed\nin the 1989 issue of the YMCA publication, International Notes. He\nsuggested that given the YMCA’s tradition of youth leadership\ndevelopment and concern for the natural world that there was an\nopportunity to engage youth in a service-based leadership program that\naddressed growing concerns about the global environment.\n</p>\n"
+      content:
+        -
+          content_id: earth_service_corps_about_yesc
+        -
+          content_id: popup_earth_service_corps_about_yesc
+      sidebar:
+        -
+          sidebar_id: earth_service_corps_about_yesc
+    -
+      id: academic_success
+      title: 'Academic Success'
+      activity: academic_success
+      body: "<p>\nThis is where YMCA Powerful Schools comes in. We rely on generous\ndonations, grants, partnerships, and community support to provide an\narray of academic, enrichment, family, and teacher support programs that\nfoster a lively school environment and that ensure children have access\nto first class programs that provide for their academic and social\nsuccess both in and out of school.\n</p>\n"
+      content:
+        -
+          content_id: academic_success
+        -
+          content_id: popup_academic_success
+      sidebar:
+        -
+          sidebar_id: academic_success
+    -
+      id: class_cardio
+      title: Cardio
+      activity: activity_cardio
+      body: "<p>Cardio class.</p>\n"
+    -
+      id: class_strength
+      title: Strength
+      activity: activity_strength
+      body: "<p>Strength class.</p>\n"
+    -
+      id: class_forever_well
+      title: 'Forever Well:55+'
+      activity: activity_forever_well
+      body: "<p>Forever Well class 55+.</p>\n"
+    -
+      id: class_climbing_1
+      title: 'Climbing - Adult Rock Climbing - September'
+      activity: activity_climbing_adult
+      body: "<p>Climbing - Adult Rock Climbing - September</p>\n"
+    -
+      id: class_cooking_1
+      title: 'Youth Cooking - Future Chefs'
+      activity: activity_cooking_classes
+      body: "<p>Youth Cooking - Future Chefs</p>\n"
+    -
+      id: class_aoa_1
+      title: 'AOA National Senior Health and Fitness Day'
+      activity: activity_health_wellness_workshops
+      body: "<p>AOA National Senior Health and Fitness Day</p>\n"
+    -
+      id: class_hi_1
+      title: 'LIVESTRONG at the YMCA'
+      activity: activity_health_improvement
+      body: "<p>LIVESTRONG at the YMCA</p>\n"
+    -
+      id: class_weight_1
+      title: 'Lose to Win for Men - Weight Loss Program'
+      activity: activity_weight_loss
+      body: "<p>Lose to Win for Men - Weight Loss Program</p>\n"
+    -
+      id: class_personal_training_1
+      title: 'Pilates Reformer - 10, private 1 hr sessions'
+      activity: activity_personal_training
+      body: "<p>Pilates Reformer - 10, private 1 hr sessions</p>\n"
+    -
+      id: class_small_group_specialty_training_1
+      title: 'Small Group Training - Pilates Reformer Level I/II'
+      activity: activity_small_group_specialty_training
+      body: "<p>Small Group Training - Pilates Reformer Level I/II</p>\n"
+    -
+      id: class_small_group_training_youth_1
+      title: 'Small Group Training - Tween Girl Power!'
+      activity: activity_small_group_training_youth
+      body: "<p>Small Group Training - Tween Girl Power!</p>\n"
+    -
+      id: class_swim_lessons_child_with_adult_1
+      title: 'Swim Lessons - Parent/Child Stage A: Water Discov'
+      activity: activity_swim_lessons_child_with_adult
+      body: "<p>Swim Lessons - Parent/Child Stage A: Water Discov</p>\n"
+    -
+      id: class_swim_lessons_preschool_1
+      title: 'Swim Lessons - Preschool Stage 1: Water Acclimat'
+      activity: activity_swim_lessons_preschool
+      body: "<p>Swim Lessons - Preschool Stage 1: Water Acclimat</p>\n"
+    -
+      id: class_swim_lessons_private_1
+      title: 'Swim Lesson - Private'
+      activity: activity_swim_lessons_private
+      body: "<p>Swim Lesson - Private</p>\n"
+    -
+      id: class_swim_lessons_teen_1
+      title: 'Swim Lessons - Teen Advanced'
+      activity: activity_swim_lessons_teen
+      body: "<p>Swim Lessons - Teen Advanced</p>\n"
+    -
+      id: class_swim_lessons_youth_1
+      title: 'Swim Lessons - Youth Stage 4: Stroke Intro'
+      activity: activity_swim_lessons_youth
+      body: "<p>Swim Lessons - Youth Stage 4: Stroke Intro</p>\n"
+    -
+      id: class_swim_team_1
+      title: 'Swim Team - Interest List'
+      activity: activity_swim_team
+      body: "<p>Swim Team - Interest List</p>\n"
+    -
+      id: class_drop-in-swim_1
+      title: 'Recreational Swim 3ft'
+      activity: activity_drop_in_swim
+      body: "<p>Recreational Swim 3ft</p>\n"
+    -
+      id: class_bold_one_week_expeditions_1
+      title: 'BOLD Cascade Challenge'
+      activity: activity_bold_one_week_expeditions
+      body: "<p>BOLD Cascade Challenge</p>\n"
+    -
+      id: class_discovery_day_camp_1
+      title: 'Discover Camp: Drop-off - Carol Edwards Ctr. 2017'
+      activity: activity_discovery_day_camp
+      body: "<p>Discover Camp: Drop-off - Carol Edwards Ctr. 2017</p>\n"
+    -
+      id: class_academic_enrichment_youth_1
+      title: 'AM Fit & Fun'
+      activity: activity_academic_enrichment_youth
+      body: "<p>AM Fit & Fun</p>\n"
+    -
+      id: class_academic_success_1
+      title: 'Academic Success'
+      activity: activity_academic_success
+      body: "<p>Academic Success</p>\n"
+    -
+      id: class_activity_arts_crafts_1
+      title: 'May Crafternoon: Handprint Sunshines'
+      activity: aactivity_arts_crafts
+      body: "<p>May Crafternoon: Handprint Sunshines</p>\n"
+    -
+      id: class_before_after_school_child_care_1
+      title: '2016/17 Woodmoor - (f) Non-School Days'
+      activity: activity_before_after_school_child_care
+      body: "<p>2016/17 Woodmoor - (f) Non-School Days</p>\n"
+    -
+      id: class_before_after_school_programs_1
+      title: '2016/17 Bellevue: No School Days - Package Option'
+      activity: activity_before_after_school_programs
+      body: "<p>2016/17 Bellevue: No School Days - Package Option</p>\n"
+    -
+      id: class_birthday_parties_1
+      title: 'Room Rental'
+      activity: activity_birthday_parties
+      body: "<p>Room Rental</p>\n"
+    -
+      id: class_earth_service_corps_1
+      title: 'Earth Service Corps About YEST'
+      activity: activity_earth_service_corps
+      body: "<p>Earth Service Corps About YEST</p>\n"
+    -
+      id: class_kids_zone_activity_centers_1
+      title: 'Kids Zone 4 wks - 11 yrs'
+      activity: activity_kids_zone_activity_centers
+      body: "<p>Kids Zone 4 wks - 11 yrs</p>\n"
+    -
+      id: class_preschool_child_care_1
+      title: '2016/17 Northshore- Preschool Child Care (30m-4yr)'
+      activity: activity_preschool_child_care
+      body: "<p>2016/17 Northshore- Preschool Child Care (30m-4yr)</p>\n"
+    -
+      id: class_sports_classes_workshops_youth_1
+      title: HomeZone
+      activity: activity_sports_classes_workshops_youth
+      body: "<p>HomeZone</p>\n"
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: title
+  field_class_activity:
+    plugin: migration
+    migration: openy_demo_node_activity
+    no_stub: false
+    source: activity
+  field_class_description/value: body
+  field_class_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_content:
+    plugin: iterator
+    source: content
+    process:
+      target_id:
+        plugin: migration
+        migration:
+          - openy_demo_paragraph_class_sessions_02
+          - openy_demo_paragraph_branches_popup_class_02
+        source: content_id
+      target_revision_id:
+        plugin: migration
+        migration:
+          - openy_demo_paragraph_class_sessions_02
+          - openy_demo_paragraph_branches_popup_class_02
+        source: content_id
+  field_sidebar_content:
+    plugin: iterator
+    source: sidebar
+    process:
+      target_id:
+        plugin: migration
+        migration: openy_demo_paragraph_class_location_02
+        source: sidebar_id
+      target_revision_id:
+        plugin: migration
+        migration: openy_demo_paragraph_class_location_02
+        source: sidebar_id
+destination:
+  plugin: 'entity:node'
+  default_bundle: class
+migration_dependencies:
+  required:
+    - openy_demo_node_activity
+    - openy_demo_paragraph_class_location_02
+    - openy_demo_paragraph_class_sessions_02
+    - openy_demo_paragraph_branches_popup_class_02

@@ -1,0 +1,14 @@
+name: openy-persch-7
+mail: steve.persch@pantheon.io
+slogan: 'Open YMCA'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: Ed1SDJVUEf1WvYTmCNKpAxDCUp4oJ2UveKNzJwe5xYk
+uuid: cf2acf65-7e6f-4f52-93d8-aafe7eea7c6d

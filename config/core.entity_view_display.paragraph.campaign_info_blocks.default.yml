@@ -1,0 +1,45 @@
+uuid: 4869c14a-e48e-42db-bc3f-7f0a4ee45f8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_info_blocks.field_prgf_left_column
+    - field.field.paragraph.campaign_info_blocks.field_prgf_left_text
+    - field.field.paragraph.campaign_info_blocks.field_prgf_right_column
+    - field.field.paragraph.campaign_info_blocks.field_prgf_right_text
+    - field.field.paragraph.campaign_info_blocks.field_prgf_title
+    - paragraphs.paragraphs_type.campaign_info_blocks
+  module:
+    - options
+_core:
+  default_config_hash: '-t2EhJ-_Mezdj4qsQPLpzOUz9Pu7pPRH5H4HzERVy_U'
+id: paragraph.campaign_info_blocks.default
+targetEntityType: paragraph
+bundle: campaign_info_blocks
+mode: default
+content:
+  field_prgf_left_column:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prgf_right_column:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prgf_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_prgf_left_text: true
+  field_prgf_right_text: true

@@ -1,0 +1,11 @@
+uuid: aafb406e-5ad3-4f4d-8f2d-250e68e7cd03
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: C_Ff5XDkRhJDGt9K3NLv93CYP5GftHcM_K-MYNgwvdY
+id: campaign_menu
+label: 'Campaign Menu'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

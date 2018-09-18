@@ -1,0 +1,21 @@
+uuid: 9284feec-6974-4634-aae5-414395858f0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lto_title
+    - paragraphs.paragraphs_type.lto
+_core:
+  default_config_hash: 8OEJcygMredp9gjXi5QiU4WIzyI34njLsvYkQ9a7dfw
+id: paragraph.lto.field_lto_title
+field_name: field_lto_title
+entity_type: paragraph
+bundle: lto
+label: Title
+description: 'Enter title for the Limited Time Offer.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 016d78b1-7b34-4c98-8974-e24d3dc78979
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+    - node
+_core:
+  default_config_hash: Dt30dnUasi58Go961XexGdeH5pw-q5cGgzExZs3AM90
+id: node.field_mbrshp_image
+field_name: field_mbrshp_image
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

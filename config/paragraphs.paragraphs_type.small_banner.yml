@@ -1,0 +1,11 @@
+uuid: 62478d22-989f-432a-bf5a-b43b03ea18c7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MYVGu__YsjZK4GL8mXtguKhOZDFke8es-PF9GJK7Fqs
+id: small_banner
+label: 'Small Banner'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

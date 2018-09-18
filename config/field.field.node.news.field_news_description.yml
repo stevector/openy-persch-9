@@ -1,0 +1,28 @@
+uuid: a3b378a9-7800-4225-8962-d22dc61a1296
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_description
+    - node.type.news
+  module:
+    - datalayer
+    - text
+third_party_settings:
+  datalayer:
+    expose: 1
+    label: field_news_description
+_core:
+  default_config_hash: 1oEuU855uuPGKm1vkiJQW65ms2Cm6G4xWP-Lc6wSvAM
+id: node.news.field_news_description
+field_name: field_news_description
+entity_type: node
+bundle: news
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

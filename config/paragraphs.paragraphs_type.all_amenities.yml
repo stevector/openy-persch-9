@@ -1,0 +1,11 @@
+uuid: 9371a333-7031-46c1-9f47-1ed5113ff708
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _pZCrkF1HgQsNWzUsJUMKVv-LRjHcV83sGn1glvanRk
+id: all_amenities
+label: 'All Amenities'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

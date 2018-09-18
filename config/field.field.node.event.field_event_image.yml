@@ -1,0 +1,30 @@
+uuid: 8d2d5ace-bdda-4175-b148-8c16ef0c6f97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_image
+    - media_entity.bundle.image
+    - node.type.event
+_core:
+  default_config_hash: hLbZW3_647jZOx31qxtC-_aNRG15X8Cm-LklQqLJoro
+id: node.event.field_event_image
+field_name: field_event_image
+entity_type: node
+bundle: event
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

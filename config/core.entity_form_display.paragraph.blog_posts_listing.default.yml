@@ -1,0 +1,36 @@
+uuid: 71b1a5ce-6d6b-4196-a9dc-e0e2a7148c03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blog_posts_listing.field_prgf_block
+    - field.field.paragraph.blog_posts_listing.field_prgf_title
+    - paragraphs.paragraphs_type.blog_posts_listing
+  module:
+    - content_moderation
+_core:
+  default_config_hash: LL8A9A8uUqJqfYxHuMhTzZObJM6T4i7FGry_6QyK4Yg
+id: paragraph.blog_posts_listing.default
+targetEntityType: paragraph
+bundle: blog_posts_listing
+mode: default
+content:
+  field_prgf_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

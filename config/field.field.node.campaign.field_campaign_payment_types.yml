@@ -1,0 +1,23 @@
+uuid: f538baef-b842-4731-b047-0a0e47df2895
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_payment_types
+    - node.type.campaign
+  module:
+    - options
+_core:
+  default_config_hash: SAYEAMpTX5L8zjz7cyF9xDFi3yTmfN0qC2ElIL-3SfM
+id: node.campaign.field_campaign_payment_types
+field_name: field_campaign_payment_types
+entity_type: node
+bundle: campaign
+label: 'Payment types'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

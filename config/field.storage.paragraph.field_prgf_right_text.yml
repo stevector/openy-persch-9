@@ -1,0 +1,21 @@
+uuid: bc94ccf2-31fe-495a-98d6-e17fac732f9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: 1BRHaAxeeV77fkSs67KeY2WkleYXjv8YxsIHOCgdcxY
+id: paragraph.field_prgf_right_text
+field_name: field_prgf_right_text
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

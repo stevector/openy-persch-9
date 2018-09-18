@@ -1,0 +1,21 @@
+uuid: a06ff338-0b2e-4719-bee5-6395180da5e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: mfrZEXzUTgJthpInAAtH5iP55YndKswOXo33_occWvY
+id: node.field_register_form_text
+field_name: field_register_form_text
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,52 @@
+uuid: 016ce57f-1d14-4a16-806b-c7fbb8330612
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_winners_prizes.field_prgf_place
+    - field.field.paragraph.campaign_winners_prizes.field_prgf_prize_text
+    - field.field.paragraph.campaign_winners_prizes.field_prgf_prize_title
+    - paragraphs.paragraphs_type.campaign_winners_prizes
+  module:
+    - content_moderation
+    - text
+_core:
+  default_config_hash: txT7hUHdzh6FACggpDFMAgBf20_cbgO_pQTo06y-UHU
+id: paragraph.campaign_winners_prizes.default
+targetEntityType: paragraph
+bundle: campaign_winners_prizes
+mode: default
+content:
+  field_prgf_place:
+    weight: 0
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_prgf_prize_text:
+    weight: 2
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_prgf_prize_title:
+    weight: 1
+    settings:
+      size: 120
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,11 @@
+uuid: dbee0d6f-b67b-4f07-95c8-7c74901d1cdd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kkNt0B9nJn3w9tX_ZuYD1Y0Y0PG4VphSoPwTfhLs-Qs
+id: class_location
+label: 'Class location'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

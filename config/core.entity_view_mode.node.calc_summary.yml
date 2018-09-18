@@ -1,0 +1,12 @@
+uuid: 44ebd113-635a-487e-a3b0-875ff9770bdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: IHwngESKeQMUPlIz5cm6msIJp-jaQKOgUqFB7FYlOKk
+id: node.calc_summary
+label: 'Calculator summary'
+targetEntityType: node
+cache: true

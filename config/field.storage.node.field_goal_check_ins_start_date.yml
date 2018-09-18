@@ -1,0 +1,22 @@
+uuid: c0ef29e2-87b9-4e8d-869e-49fd4eacbd2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: SsODmx0S5pgZ5CitCIwAZjzz03BihEq4JVtPjRVXsxY
+id: node.field_goal_check_ins_start_date
+field_name: field_goal_check_ins_start_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

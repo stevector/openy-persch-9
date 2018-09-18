@@ -1,0 +1,47 @@
+uuid: 6566ee31-317a-4c62-90fe-53a212ad45b9
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.alert.field_alert_belongs
+    - field.field.node.alert.field_alert_color
+    - field.field.node.alert.field_alert_description
+    - field.field.node.alert.field_alert_icon_color
+    - field.field.node.alert.field_alert_link
+    - field.field.node.alert.field_alert_place
+    - field.field.node.alert.field_alert_text_color
+    - field.field.node.alert.field_alert_visibility_pages
+    - field.field.node.alert.field_alert_visibility_state
+    - node.type.alert
+  module:
+    - user
+_core:
+  default_config_hash: mjuQUegh68iTW_Dqcxi6SOlnouOr2defDC0W4L2eQ2w
+id: node.alert.teaser
+targetEntityType: node
+bundle: alert
+mode: teaser
+content:
+  addthis:
+    label: hidden
+    type: string
+    weight: 100
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_alert_belongs: true
+  field_alert_color: true
+  field_alert_description: true
+  field_alert_icon_color: true
+  field_alert_link: true
+  field_alert_place: true
+  field_alert_text_color: true
+  field_alert_visibility_pages: true
+  field_alert_visibility_state: true
+  langcode: true

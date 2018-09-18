@@ -1,0 +1,21 @@
+uuid: 6a889ce2-915f-40ae-acb4-442fe0a0a0bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_game_title
+    - node.type.campaign
+_core:
+  default_config_hash: gG-ZXIMG3usVBUApegX8VdMK3kNzaStKF1YBXHIoYW4
+id: node.campaign.field_campaign_game_title
+field_name: field_campaign_game_title
+entity_type: node
+bundle: campaign
+label: 'Game Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

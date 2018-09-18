@@ -1,0 +1,11 @@
+uuid: 8856b88b-6c81-4ed6-bb8e-254ab5202267
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0MnDIwTFk8GvNH24bbOvj9YVFhEzmFKcVxNJuJ4iKSA
+id: campaign_winners_prizes
+label: 'Campaign Winners Prizes'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

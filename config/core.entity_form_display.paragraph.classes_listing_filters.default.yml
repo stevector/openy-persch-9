@@ -1,0 +1,27 @@
+uuid: b3f15e40-213b-4728-b553-b08570405bce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.classes_listing_filters.field_prgf_block
+    - paragraphs.paragraphs_type.classes_listing_filters
+  module:
+    - content_moderation
+_core:
+  default_config_hash: ts16pEAxEAGxuwC7YeoMzOYqp50fTpZKWI5_g8glOV8
+id: paragraph.classes_listing_filters.default
+targetEntityType: paragraph
+bundle: classes_listing_filters
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

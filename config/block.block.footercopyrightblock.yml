@@ -1,0 +1,23 @@
+uuid: d072f264-4201-42f5-bfef-dd63bd0c6fff
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: E6ZtVmoM0KjmmUzwNg21RHPlZTA713sw_ynyz5jImm4
+id: footercopyrightblock
+theme: openy_rose
+region: footer_social
+weight: 0
+provider: null
+plugin: 'block_content:cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+settings:
+  id: 'block_content:cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+  label: 'Footer Copyright Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

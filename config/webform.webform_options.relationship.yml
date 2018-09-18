@@ -1,0 +1,13 @@
+uuid: dee9c8fe-81a5-4961-b276-c6bbde89a899
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 1tjuxzCXZDkEBFhEqaLYf5oZLAiT3CILYg_gEHNGwF0
+id: relationship
+label: Relationship
+category: Demographic
+options: "Parent: Parent\n'Significant Other': 'Significant Other'\nSibling: Sibling\nChild: Child\nFriend: Friend\n"

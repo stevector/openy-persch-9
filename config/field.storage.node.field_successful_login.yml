@@ -1,0 +1,21 @@
+uuid: 9a3ca8c2-64c0-41b7-9d8d-aa5da57e0643
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: Wif2hXL8HIm97UIKuaoPD_VbD5zdYdT3jsdMV24UEjU
+id: node.field_successful_login
+field_name: field_successful_login
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

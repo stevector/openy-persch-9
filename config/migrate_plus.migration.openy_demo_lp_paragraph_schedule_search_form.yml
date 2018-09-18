@@ -1,0 +1,48 @@
+uuid: 16eb7863-e6fa-4b6e-b5b1-393d0a1a0153
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nlanding
+_core:
+  default_config_hash: WTnHR4Reamce8MDbAEV199P9XmtHqcr2J-nxGLAENsc
+id: openy_demo_lp_paragraph_schedule_search_form
+migration_tags: {  }
+migration_group: openy_demo_nlanding
+label: 'Create Schedule search paragraph(s) for demo landing page nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: schedule_search_form
+      parent_id: schedules
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration
+    migration: openy_demo_node_landing
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: node
+  parent_field_name:
+    plugin: default_value
+    default_value: field_header_content
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: schedule_search_form
+migration_dependencies: {  }

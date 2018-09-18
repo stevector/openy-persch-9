@@ -1,0 +1,11 @@
+uuid: b15abe20-63cc-4a62-957a-be75e4cf4dfc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _uwjUeXpqgX5tPpMivMU78Utz-xLFmylZ2ZteeWg_hk
+id: latest_news_posts_camp
+label: 'Latest news posts (camp)'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

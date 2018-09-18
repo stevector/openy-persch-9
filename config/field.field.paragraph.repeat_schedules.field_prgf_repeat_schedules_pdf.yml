@@ -1,0 +1,25 @@
+uuid: aafb359e-b03f-4e55-ba6c-247dc6701a8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_repeat_schedules_pdf
+    - paragraphs.paragraphs_type.repeat_schedules
+  module:
+    - link
+_core:
+  default_config_hash: phiISGPRB2pZKn_3emgzFIQWykc8O5eTPZNXx7M1iqw
+id: paragraph.repeat_schedules.field_prgf_repeat_schedules_pdf
+field_name: field_prgf_repeat_schedules_pdf
+entity_type: paragraph
+bundle: repeat_schedules
+label: 'PDF Schedule link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

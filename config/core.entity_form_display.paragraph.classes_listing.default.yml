@@ -1,0 +1,27 @@
+uuid: 78fd777f-0443-4db7-81cb-96d770c73a38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.classes_listing.field_prgf_block
+    - paragraphs.paragraphs_type.classes_listing
+  module:
+    - content_moderation
+_core:
+  default_config_hash: ZhASg2aRFO3eu0HovSNgK9gN3D5hNK9zkiqQbKpdgSY
+id: paragraph.classes_listing.default
+targetEntityType: paragraph
+bundle: classes_listing
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

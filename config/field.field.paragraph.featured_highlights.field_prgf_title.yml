@@ -1,0 +1,21 @@
+uuid: ea30fd51-f347-48e3-bdb1-a2d587a202df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_title
+    - paragraphs.paragraphs_type.featured_highlights
+_core:
+  default_config_hash: wLMr1-sq-hDHJAtum3rafN8PcVKLuauKPWPSy1GhR7s
+id: paragraph.featured_highlights.field_prgf_title
+field_name: field_prgf_title
+entity_type: paragraph
+bundle: featured_highlights
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

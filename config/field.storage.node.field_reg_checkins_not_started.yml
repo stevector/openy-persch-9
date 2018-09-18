@@ -1,0 +1,21 @@
+uuid: 773e0b0a-540c-4229-9570-1db8f3c034be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: v4Tri4JyvFJEYzlSnIsm7KjODOyT4clv8MifSFM9mrc
+id: node.field_reg_checkins_not_started
+field_name: field_reg_checkins_not_started
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: e4f2e6c0-9523-4683-b6d4-fea96544c3fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nevent
+_core:
+  default_config_hash: z9yGgQLEVCf30i7CbDb3FgUQblcAMlBN6_m4x27zui4
+id: openy_demo_nevent
+label: Event
+description: 'Imports event demo content.'
+source_type: null
+module: openy_demo_nevent
+shared_configuration: null

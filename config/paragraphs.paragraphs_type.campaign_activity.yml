@@ -1,0 +1,11 @@
+uuid: f2aa3bdb-8b6e-4dc1-b17f-27f8e5ba9e26
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aSTuMDhy2HrwhrsoDr9ghSv5Uwwket2NnP-876xFE1Q
+id: campaign_activity
+label: 'Campaign Activity'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

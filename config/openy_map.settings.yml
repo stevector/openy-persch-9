@@ -1,0 +1,27 @@
+map_engine: leaflet
+leaflet:
+  base_layer: Wikimedia
+  search_icon: 'http://dev-openy-persch-7.pantheonsite.io/profiles/contrib/openy/modules/custom/openy_map/img/other/map_icon_red.png'
+  search_icon_retina: 'http://dev-openy-persch-7.pantheonsite.io/profiles/contrib/openy/modules/custom/openy_map/img/other/map_icon_red_x2.png'
+default_tags:
+  branch: YMCA
+  camp: Camps
+  facility: ''
+block_labels:
+  branch: YMCAs
+  camp: Camps
+  facility: Facilities
+type_labels:
+  branch: YMCA
+  camp: Camps
+  facility: Facilities
+active_types:
+  branch: YMCA
+  camp: Camps
+  facility: Facilities
+type_icons:
+  branch: 'http://dev-openy-persch-7.pantheonsite.io/profiles/contrib/openy/modules/custom/openy_map/img/map_icon_blue.png'
+  camp: 'http://dev-openy-persch-7.pantheonsite.io/profiles/contrib/openy/modules/custom/openy_map/img/map_icon_green.png'
+  facility: 'http://dev-openy-persch-7.pantheonsite.io/profiles/contrib/openy/modules/custom/openy_map/img/map_icon_green.png'
+_core:
+  default_config_hash: Fzw0w35voWcCXVXwnGjCfpYqOxulyheXq8Y5JyDbnnA

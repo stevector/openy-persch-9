@@ -1,0 +1,48 @@
+uuid: 28840442-68fe-4a3f-a13f-c02db121739a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nlanding
+_core:
+  default_config_hash: XvdnNfoZMpUEnQIVN4aS_9piARekoAiflNus__FkGrQ
+id: openy_demo_landing_paragraph_branches_popup_all
+migration_tags: {  }
+migration_group: openy_demo_nlanding
+label: 'Create branches popup (All) paragraphs for demo landing pages.'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: popup_schedules
+      parent_id: popup_schedules
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration
+    migration: openy_demo_node_landing
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: node
+  parent_field_name:
+    plugin: default_value
+    default_value: field_content
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: branches_popup_all
+migration_dependencies: {  }

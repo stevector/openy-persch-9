@@ -1,0 +1,23 @@
+uuid: c6f1144d-d9c0-46ea-b51a-08ef87121e2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_reg_start_date
+    - node.type.campaign
+  module:
+    - datetime
+_core:
+  default_config_hash: n8YhwwYDzg1dN9HZlM-w1Pd9csOKofpVUhQ14XPy6LE
+id: node.campaign.field_campaign_reg_start_date
+field_name: field_campaign_reg_start_date
+entity_type: node
+bundle: campaign
+label: 'Campaign Registration start date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

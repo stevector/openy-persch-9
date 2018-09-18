@@ -1,0 +1,26 @@
+uuid: 78d08493-d292-4499-9996-59b5e931b3f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reg_already_registered
+    - node.type.campaign
+  module:
+    - text
+_core:
+  default_config_hash: IOX7GBTnwL4oYaiDqMeyH8s6ohkUZ4FUV-jKOlARYMQ
+id: node.campaign.field_reg_already_registered
+field_name: field_reg_already_registered
+entity_type: node
+bundle: campaign
+label: 'Member is already registered'
+description: 'Message to display during registration if the member is already registered previously.'
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p><strong>You're already signed up!</strong><br />\r\nYou can check your progress or report activities by [campaign:login-link].</p>\r\n"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

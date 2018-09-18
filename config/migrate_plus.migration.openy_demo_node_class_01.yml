@@ -1,0 +1,532 @@
+uuid: 17f63a2c-691b-45bf-8ec7-094a7d35fdd9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nclass
+_core:
+  default_config_hash: YzxyV1LSPIlG2QIGYQQTztAOAVhGyL2TL7Ta4Mk1mEI
+id: openy_demo_node_class_01
+migration_tags: {  }
+migration_group: openy_demo_nclass
+label: 'Create demo class nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: swim_lessons_adult_begin
+      title: 'Swim Lessons - Adult Beginning'
+      activity: swim_lessons_adult
+      body: "<p>\nFor individuals who have never had swim lessons, or are uncomfortable\naround water. Students develop comfort with underwater exploration and\nlearn to safely exit the water unassisted. In this stage the student\nwill progress to swimming longer distances up to 15 feet unassisted\nwithout a flotation device. Other skills learned include directional\nchanges, body positioning, and rhythmic breathing.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_adult_begin
+        -
+          content_id: popup_swim_lessons_adult_begin
+      sidebar:
+        -
+          sidebar_id: swim_lessons_adult_begin
+    -
+      id: swim_lessons_parent_child_a
+      title: 'Swim Lessons - Parent/Child Stage A: Water Discov.'
+      activity: swim_lessons_child_with_adult
+      body: "<p>\nAccompanied by a parent or guardian, infants and toddlers will be\ncomfortable in the water and develop swim readiness skills through\nfun and confidence building experiences, while parents learn about\nwater safety, drowning prevention, and the importance of supervision.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_parent_child_a
+        -
+          content_id: popup_swim_lessons_parent_child_a
+      sidebar:
+        -
+          sidebar_id: swim_lessons_parent_child_a
+    -
+      id: swim_lessons_parent_child_b
+      title: 'Swim Lessons - Parent/Child Stage B: Water Explor.'
+      activity: swim_lessons_child_with_adult
+      body: "<p>\nDesigned for infants and toddlers able to enter and exit the water with\nhelp and to enjoy the water with a parent or guardian. In stage B,\nparents work with their children to explore body positions, floating,\nblowing bubbles, and fundamental safety and aquatic skills.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_parent_child_b
+        -
+          content_id: popup_swim_lessons_parent_child_b
+      sidebar:
+        -
+          sidebar_id: swim_lessons_parent_child_b
+    -
+      id: swim_lessons_preschool_1
+      title: 'Swim Lessons - Preschool Stage 1: Water Acclimat.'
+      activity: swim_lessons_preschool
+      body: "<p>\nFor Preschool age children who have never had swim lessons without a\nprent or guardian, or are afraid of the water. Students develop comfort\nwith underwater exploration and a foundation that allows for a student's\nfuture progress in swimming.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_preschool_1
+        -
+          content_id: popup_swim_lessons_preschool_1
+      sidebar:
+        -
+          sidebar_id: swim_lessons_preschool_1
+    -
+      id: swim_lessons_preschool_2
+      title: 'Swim Lessons - Preschool Stage 2: Water Movement'
+      activity: swim_lessons_preschool
+      body: "<p>\nFor Preschool age children who are comfortable in the water and able to\nswim and float assisted for 5 feet. In stage 2 students focus on body\nposition and control, directional change, and forward movement in the\nwater while also continuing to practice how to safely exit in the event\nof falling into a body of water.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_preschool_2
+        -
+          content_id: popup_swim_lessons_preschool_2
+      sidebar:
+        -
+          sidebar_id: swim_lessons_preschool_2
+    -
+      id: swim_lessons_preschool_3
+      title: 'Swim Lessons - Preschool Stage 3: Water Stamina'
+      activity: swim_lessons_preschool
+      body: "<p>\nFor Preschool age children who can swim 10 yards unassisted with their\nface in the water and without a flotation device. In stage 3 students\nlearn how to swim to safety from a longer distance and also rhythmic\nbreathing and integrated arma nd leg action.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_preschool_3
+        -
+          content_id: popup_swim_lessons_preschool_3
+      sidebar:
+        -
+          sidebar_id: swim_lessons_preschool_3
+    -
+      id: swim_lessons_preschool_4
+      title: 'Swim Lessons - Preschool Stage 4: Stroke Intro.'
+      activity: swim_lessons_preschool
+      body: "<p>\nFor Preschool age children who can swim 15 yards unassisted with their\nface in the water and without a flotation device. Having mastered the\nfundamentals, students learn additional water safety skills and build\nstroke technique.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_preschool_4
+        -
+          content_id: popup_swim_lessons_preschool_4
+      sidebar:
+        -
+          sidebar_id: swim_lessons_preschool_4
+    -
+      id: swim_lessons_private
+      title: 'Swim Lesson - Private'
+      activity: swim_lessons_private
+      body: "<p>\nPrivate swim lessons.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_private
+        -
+          content_id: popup_swim_lessons_private
+      sidebar:
+        -
+          sidebar_id: swim_lessons_private
+    -
+      id: swim_lessons_youth_1
+      title: 'Swim Lessons - Youth Stage 1: Water Acclimat.'
+      activity: swim_lessons_youth
+      body: "<p>\nFor school age children who have never had swim lessons without a parent\nor guardian, or are afraid of the water. Students develop comfort with\nunderwater exploration and learn to safely exit the water unassisted.\nThis stage lays the foundation that allows for a student?s future\nprogress in swimming.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_youth_1
+        -
+          content_id: popup_swim_lessons_youth_1
+      sidebar:
+        -
+          sidebar_id: swim_lessons_youth_1
+    -
+      id: swim_lessons_youth_2
+      title: 'Swim Lessons - Youth Stage 2: Water Movement'
+      activity: swim_lessons_youth
+      body: "<p>\nFor school age children who are comfortable in the water and able to\nswim and float assisted for 10 feet. In stage 2 students focus on body\nposition and control, directional change, and forward movement in the\nwater while also continuing to practice how to safely exit in the event\nof falling into a body of water.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_youth_2
+        -
+          content_id: popup_swim_lessons_youth_2
+      sidebar:
+        -
+          sidebar_id: swim_lessons_youth_2
+    -
+      id: swim_lessons_youth_3
+      title: 'Swim Lessons - Youth Stage 3: Water Stamina'
+      activity: swim_lessons_youth
+      body: "<p>\nFor school age children who can swim 15 yards unassisted with face in\nthe water and without a flotation device. In stage 3 students learn how\nto swim to safety from a longer distance and also rhythmic breathing and\nintegrated arm and leg action.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_youth_3
+        -
+          content_id: popup_swim_lessons_youth_3
+      sidebar:
+        -
+          sidebar_id: swim_lessons_youth_3
+    -
+      id: swim_lessons_youth_4
+      title: 'Swim Lessons - Youth Stage 4: Stroke Intro.'
+      activity: swim_lessons_youth
+      body: "<p>\nFor school age children who can swim 15 yards unassisted. Having\nmastered the fundamentals, students learn additional water safety\nskills and build stroke technique.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_youth_4
+        -
+          content_id: popup_swim_lessons_youth_4
+      sidebar:
+        -
+          sidebar_id: swim_lessons_youth_4
+    -
+      id: swim_lessons_youth_5
+      title: 'Swim Lessons - Youth Stage 5: Stroke Devel.'
+      activity: swim_lessons_youth
+      body: "<p>\nFor school age children who can swim 25 yards unassisted and show\nendurance in the water with any stroke or combination of strokes.\nStudents in stage 5 work on stroke technique and learn all major\ncompetitive strokes. The emphasis on water safety continues through\ntreading water and sidestroke.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_youth_5
+        -
+          content_id: popup_swim_lessons_youth_5
+      sidebar:
+        -
+          sidebar_id: swim_lessons_youth_5
+    -
+      id: swim_lessons_youth_6
+      title: 'Swim Lessons - Youth Stage 6: Stroke Mechanics'
+      activity: swim_lessons_youth
+      body: "<p>\nFor school age children who can swim 50 yards unassisted and show\nendurance in the water with any stroke or combination of strokes.\nIn stage 6 students refine stroke technique on all major competitive\nstrokes, learn about competitive swimming, and discover how to\nincorporate swimming into a healthy lifestyle.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_youth_6
+        -
+          content_id: popup_swim_lessons_youth_6
+      sidebar:
+        -
+          sidebar_id: swim_lessons_youth_6
+    -
+      id: swim_team_intrest_list
+      title: 'Swim Team - Interest List'
+      activity: swim_team
+      body: "<p>\nThe Northshore Sharks swim team is a Y values based program, focused on\nproper technique, individual goals, and team values. Swimmers have the\nchance to grow their skills as a competitive swimmer, make friends, and\nset individual goals. A coach evaluation is required to join the team to\nensure proper placement in a practice group.\n</p>\n\n<p>\nThe Northshore Sharks will email the individuals on the Interest List\nwhen evaluation dates and times are set.\n</p>\n\n<p>\nSwimmers wishing to join the Northshore Sharks Swim Team should be able\nto complete the 4 competitive strokes legally for 25 yards. Freestyle,\nBackstroke, Breaststroke &amp; Butterfly\n</p>\n"
+      content:
+        -
+          content_id: swim_team_intrest_list
+        -
+          content_id: popup_swim_team_intrest_list
+      sidebar:
+        -
+          sidebar_id: swim_team_intrest_list
+    -
+      id: swim_lessons_teen
+      title: 'Swim Lessons - Teen'
+      activity: swim_lessons_teen
+      body: "<p>\nTeen beginning: For individuals who have never had swim lessons, or are\nuncomfortable around water. Students develop comfort with underwater\nexploration and learn to safely exit the water unassisted. In this stage\nthe student will progress to swimming longer distances up to 15 feet\nunassisted without a flotation device. Other skills learned include\ndirectional changes, body positioning, and rhythmic breathing. Teen\nintermediate: For individuals who are comfortable in the water, and able\nto swim and float unassisted for up to 15 feet. Students continue to\ngain swimming confidence, completing longer distances and integrating\narm and leg actions. Having mastered fundamentals, students learn\nadditional water safety skills and build stroke technique. Teen\nadvanced: For individuals who can swim up to 25 yards unassisted and\nshow endurance in the water with different stroke combinations.\nStudents work on stroke technique, learn all major competitive strokes,\nand continue to build distance. The emphasis on water safety continues\nthrough treading water and sidestroke.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_teen
+        -
+          content_id: popup_swim_lessons_teen
+      sidebar:
+        -
+          sidebar_id: swim_lessons_teen
+    -
+      id: swim_lessons_teen_beginning
+      title: 'Swim Lessons - Teen Beginning'
+      activity: swim_lessons_teen
+      body: "<p>\nFor individuals who have never had swim lessons, or are uncomfortable\naround water. Students develop comfort with underwater exploration and\nlearn to safely exit the water unassisted. In this stage the student\nwill progress to swimming longer distances up to 15 feet unassisted\nwithout a flotation device. Other skills learned include directional\nchanges, body positioning, and rhythmic breathing.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_teen_beginning
+        -
+          content_id: popup_swim_lessons_teen_beginning
+      sidebar:
+        -
+          sidebar_id: swim_lessons_teen_beginning
+    -
+      id: swim_lessons_teen_intermediate
+      title: 'Swim Lessons - Teen Intermediate'
+      activity: swim_lessons_teen
+      body: "<p>\nFor individuals who are comfortable in the water, and able to swim and\nfloat unassisted for up to 15 feet. Students continue to gain swimming\nconfidence, completing longer distances and integrating arm and leg\nactions. Having mastered fundamentals, students learn additional water\nsafety skills and build stroke technique. By the end of this stage\nstudents who are 16 or older may qualify to take the YMCA Swim\nInstructor and/or Lifeguard course.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_teen_intermediate
+        -
+          content_id: popup_swim_lessons_teen_intermediate
+      sidebar:
+        -
+          sidebar_id: swim_lessons_teen_intermediate
+    -
+      id: swim_lessons_teen_advanced
+      title: 'Swim Lessons - Teen Advanced'
+      activity: swim_lessons_teen
+      body: "<p>\nFor individuals who can swim up to 25 yards unassisted and show\nendurance in the water with different stroke combinations. Students\nwork on stroke technique , learn all major competitive strokes, and\ncontinue to build distance. The emphasis on water safety continues\nthrough treading water and sidestroke.\n</p>\n"
+      content:
+        -
+          content_id: swim_lessons_teen_advanced
+        -
+          content_id: popup_swim_lessons_teen_advanced
+      sidebar:
+        -
+          sidebar_id: swim_lessons_teen_advanced
+    -
+      id: drop_in_swim_recreational_3ft
+      title: 'Recreational Swim 3ft'
+      activity: drop_in_swim
+      body: "<p>\nRecreational Swim Time\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_recreational_3ft
+        -
+          content_id: popup_drop_in_swim_recreational_3ft
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_recreational_3ft
+    -
+      id: drop_in_swim_wade_2ft
+      title: 'Wade Swim 2ft'
+      activity: drop_in_swim
+      body: "<p>\nSwimming for fun or fitness in shallow water.\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_wade_2ft
+        -
+          content_id: popup_drop_in_swim_wade_2ft
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_wade_2ft
+    -
+      id: drop_in_swim_rec_with_slide
+      title: 'Rec Swim with Slide'
+      activity: drop_in_swim
+      body: "<p>\nRecreational swim time.\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_rec_with_slide
+        -
+          content_id: popup_drop_in_swim_rec_with_slide
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_rec_with_slide
+    -
+      id: drop_in_swim_adult_5.5ft
+      title: 'Adult Swim 5.5 ft'
+      activity: drop_in_swim
+      body: "<p>\nLap swimming open to members that enjoy swimming for fitness. Please be\ncourteous of other swimmers and choose a lane that best fits your speed\nor age.\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_adult_5.5ft
+        -
+          content_id: popup_drop_in_swim_adult_5.5ft
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_adult_5.5ft
+    -
+      id: drop_in_swim_family
+      title: 'Family Swim'
+      activity: drop_in_swim
+      body: "<p>\nThe whole family is ecnouraged to swim together during our family swim\nhours. This time is perfect for young swimmers to practice their skills\nor just play and have fun. All swimmers under 14 years of age must abide\nby the swim test policy. Prior to bringing a group of 10 or more into\nthe pool, please make arrangements with the Aquatics Department. If\narrangements are not made, capacity issues could decrease swim time.\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_family
+        -
+          content_id: popup_drop_in_swim_family
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_family
+    -
+      id: drop_in_swim_recreational
+      title: 'Recreational Swim'
+      activity: drop_in_swim
+      body: "<p>\nDuring recreational swim, some or all of the pool may be used for\ngeneral exercise, recreation, or water play. Available water features\nmay be turned on during this time. All swimmers under 14 years of age\nmust abide by the swim test policy. Prior to bringing a group of 10 or\nmore into the pool, please make arrangements with the Aquatics\nDepartment. If arrangements are not made, capacity issues could decrease\nswim time.\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_recreational
+        -
+          content_id: popup_drop_in_swim_recreational
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_recreational
+    -
+      id: drop_in_swim_lap
+      title: 'Lap Swim'
+      activity: drop_in_swim
+      body: "<p>\n2 or more lap lanes are available to any members at this time. Please be\ncourteous of other swimmers and choose a lane that best fits your speed\nor age. Circle swimming is required when two or more swimmers are in one\nlane.\n</p>\n"
+      content:
+        -
+          content_id: drop_in_swim_lap
+        -
+          content_id: popup_drop_in_swim_lap
+      sidebar:
+        -
+          sidebar_id: drop_in_swim_lap
+    -
+      id: kids_zone_activity_centers_4wks_11yrs
+      title: 'Kids Zone 4 wks -11 yrs'
+      activity: kids_zone_activity_centers
+      body: "<p>\nLet our caring staff watch after your little ones while you enjoy a\nrejuvenating workout. Drop-in care is a great place for kids to release\nenergy and make new friends in a supervised, friendly environment.\nWe offer quality programming with a wide variety of age-appropriate\ntoys, games, crafts and other activities for your child's enrichment.\nChildren may be checked in for up to two (2) hours per day in one of our\ndesignated Kids Zone Rooms.\n</p>\n"
+      content:
+        -
+          content_id: kids_zone_activity_centers_4wks_11yrs
+        -
+          content_id: popup_kids_zone_activity_centers_4wks_11yrs
+      sidebar:
+        -
+          sidebar_id: kids_zone_activity_centers_4wks_11yrs
+    -
+      id: cooking_classes_future_chefs
+      title: 'Youth Cooking - Future Chefs'
+      activity: cooking_classes
+      body: "<p>\nKids ages 6 - 11 will have a blast learning fundamental kitchen skills,\nage-appropriate cooking techniques, kitchen safety, and important\nnutrition facts. Each class will meet on 3rd Thursday of every month in\nthe Kitchen.\n</p>\n"
+      content:
+        -
+          content_id: cooking_classes_future_chefs
+        -
+          content_id: popup_cooking_classes_future_chefs
+      sidebar:
+        -
+          sidebar_id: cooking_classes_future_chefs
+    -
+      id: arts_and_crafts_maycrafternoon_handprint_sunshines
+      title: 'May Crafternoon: Handprint Sunshines'
+      activity: arts_and_crafts
+      body: "<p>\nMay: Make a sunshine using your child's handprints on a canvas. Optional\ntext can be added saying \"You Are My Sunshine\". A YMCA staff member will\nbe there to walk you through the process. All materials included.\n</p>\n\n<p>\nCome join us for a wonderful Crafternoon! Each month will have a\ndifferent theme and you and/or your child will take home their very own\nmasterpiece.\n</p>\n\n<p>\nWear clothes you don't mind getting dirty and get your Craft on!\n</p>\n"
+      content:
+        -
+          content_id: arts_and_crafts_maycrafternoon_handprint_sunshines
+        -
+          content_id: popup_arts_and_crafts_maycrafternoon_handprint_sunshines
+      sidebar:
+        -
+          sidebar_id: arts_and_crafts_maycrafternoon_handprint_sunshines
+    -
+      id: arts_and_crafts_april_earth_day_bridhouses
+      title: 'April Earth Day Birdhouses'
+      activity: arts_and_crafts
+      body: "<p>\nCome join us for a wonderful Crafternoon! In April to honor Earth Day,\nwe will have a wooden birdhouse for each participant to paint how they\nplease! We will also be making dirt cup desserts using chocolate\npudding, gummy worms and cookie crumbles!\n</p>\n\n<p>\nWear clothes you don't mind getting dirty and get your Craft on!\n</p>\n"
+      content:
+        -
+          content_id: arts_and_crafts_april_earth_day_bridhouses
+        -
+          content_id: popup_arts_and_crafts_april_earth_day_bridhouses
+      sidebar:
+        -
+          sidebar_id: arts_and_crafts_april_earth_day_bridhouses
+    -
+      id: arts_and_crafts_crafternoon
+      title: Crafternoon
+      activity: arts_and_crafts
+      body: "<p>\nCome join us for a wonderful Crafternoon! Each month will have a\ndifferent theme and you and/or your child will take home their very own\nmasterpiece.\n</p>\n\n<p>\nWear clothes you don't mind getting dirty and get your Craft on!\n</p>\n"
+      content:
+        -
+          content_id: arts_and_crafts_crafternoon
+        -
+          content_id: popup_arts_and_crafts_crafternoon
+      sidebar:
+        -
+          sidebar_id: arts_and_crafts_crafternoon
+    -
+      id: birthday_parties_room_rental
+      title: 'Room Rental'
+      activity: birthday_parties
+      body: "<p>\nLooking for a fun and safe place for your child's next birthday party?\nTry the YMCA! Parties are 90 minutes in length and include up to 14\nfriends. Birthday parties spent in the Adventure Zone will have the\nsecond half of party to eat cake, celebrate, and open gifts. If you are\nrequesting a Kids Zone Party (recommended for ages 3-10) or a Gym party\n(recommended for ages 6-17) for court games or gaga pit, please contact\nto request availability and reservation.\n</p>\n\n<p>\nBirthday Parties are on Saturdays and Sundays from 2:00-3:30 pm and\n4:30- 6:00 pm.\n</p>\n\n<p>\nIf you have another vision for your party please contact us for options.\n</p>\n\n<p>\nFor more information email: bellevuebirthdays@seattleymca.org\n</p>\n<p>\nPlease note: there is a non-refundable $50 reservation fee when issuing\nrefunds.\n</p>\n"
+      content:
+        -
+          content_id: birthday_parties_room_rental
+        -
+          content_id: popup_birthday_parties_room_rental
+      sidebar:
+        -
+          sidebar_id: birthday_parties_room_rental
+    -
+      id: birthday_parties_birthday_party
+      title: 'Birthday Party'
+      activity: birthday_parties
+      body: "<p>\nLooking for a fun and safe place for your child's next birthday party?\nTry the YMCA! Parties are 90 minutes in length and include up to 14\nfriends. Birthday parties spent in the Adventure Zone will have the\nsecond half of party to eat cake, celebrate, and open gifts. If you are\nrequesting a Kids Zone Party (recommended for ages 3-10) or a Gym party\n(recommended for ages 6-17) for court games or gaga pit, please contact\nto request availability and reservation.\n</p>\n\n<p>\nBirthday Parties are on Saturdays and Sundays from 2:00-3:30 pm and 4:30- 6:00 pm.\n</p>\n\n<p>\nIf you have another vision for your party please contact us for options.\n</p>\n\n<p>\nFor more information email: bellevuebirthdays@seattleymca\n.org\n</p>\n<p>\nPlease note: there is a non-refundable $50 reservation fee when issuing refunds.\n</p>\n"
+      content:
+        -
+          content_id: birthday_parties_birthday_party
+        -
+          content_id: popup_birthday_parties_birthday_party
+      sidebar:
+        -
+          sidebar_id: birthday_parties_birthday_party
+    -
+      id: before_and_after_school_programs_2016_17_bellevue_no_school_days
+      title: '2016/17 Bellevue: No School Days - Package Option'
+      activity: before_and_after_school_programs
+      body: "<p>\nEnroll for all the no school days the YMCA offers throughout the year\nfor a discounted Price. MUST be enrolled in the enrichment pass option\nfor Kids University.\n</p>\n"
+      content:
+        -
+          content_id: before_and_after_school_programs_2016_17_bellevue_no_school_days
+        -
+          content_id: popup_b4_n_after_school_programs_2016_17_bellevue_no_school_days
+      sidebar:
+        -
+          sidebar_id: before_and_after_school_programs_2016_17_bellevue_no_school_days
+    -
+      id: before_and_after_school_programs_am_fit_and_fun
+      title: 'AM Fit & Fun'
+      activity: academic_enrichment_youth
+      body: "<p>\nEnroll for all the no school days the YMCA offers throughout the year\nfor a discounted Price. MUST be enrolled in the enrichment pass option\nfor Kids University.\n</p>\n"
+      content:
+        -
+          content_id: before_and_after_school_programs_am_fit_and_fun
+        -
+          content_id: popup_before_and_after_school_programs_am_fit_and_fun
+      sidebar:
+        -
+          sidebar_id: before_and_after_school_programs_am_fit_and_fun
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: title
+  field_class_activity:
+    plugin: migration
+    migration: openy_demo_node_activity
+    no_stub: true
+    source: activity
+  field_class_description/value: body
+  field_class_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_content:
+    plugin: iterator
+    source: content
+    process:
+      target_id:
+        plugin: migration
+        migration:
+          - openy_demo_paragraph_class_sessions_01
+          - openy_demo_paragraph_branches_popup_class_01
+        source: content_id
+      target_revision_id:
+        plugin: migration
+        migration:
+          - openy_demo_paragraph_class_sessions_01
+          - openy_demo_paragraph_branches_popup_class_01
+        source: content_id
+  field_sidebar_content:
+    plugin: iterator
+    source: sidebar
+    process:
+      target_id:
+        plugin: migration
+        migration: openy_demo_paragraph_class_location_01
+        source: sidebar_id
+      target_revision_id:
+        plugin: migration
+        migration: openy_demo_paragraph_class_location_01
+        source: sidebar_id
+destination:
+  plugin: 'entity:node'
+  default_bundle: class
+migration_dependencies:
+  required:
+    - openy_demo_node_activity
+    - openy_demo_paragraph_class_location_01
+    - openy_demo_paragraph_class_sessions_01
+    - openy_demo_paragraph_branches_popup_class_01

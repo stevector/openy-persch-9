@@ -1,0 +1,33 @@
+uuid: a32c486a-12b4-40ad-8c1c-7e19b04e22ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_winners.field_prgf_campaign_winners
+    - paragraphs.paragraphs_type.campaign_winners
+  module:
+    - content_moderation
+    - plugin
+_core:
+  default_config_hash: 6cMmmSHJ1m3d0oQ2-KJVps-IXa8siMP5sG6HOteN0ag
+id: paragraph.campaign_winners.default
+targetEntityType: paragraph
+bundle: campaign_winners
+mode: default
+content:
+  field_prgf_campaign_winners:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: 'plugin_selector:plugin_select_list'
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

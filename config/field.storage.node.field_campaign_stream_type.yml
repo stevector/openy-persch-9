@@ -1,0 +1,32 @@
+uuid: 0c57fcbb-c89f-4a9d-a135-90aa352140ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: Fj3241ufSNQjsmDeATc1KaM6eM980cXnfkPnIT1anqg
+id: node.field_campaign_stream_type
+field_name: field_campaign_stream_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: all
+      label: All
+    -
+      value: instant
+      label: 'Just Instant Game Winners'
+    -
+      value: visit
+      label: 'Just Visit Goal Achieved'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

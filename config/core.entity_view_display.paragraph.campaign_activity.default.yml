@@ -1,0 +1,24 @@
+uuid: a293979e-08c4-4d9e-807b-a8df55661716
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_activity.field_prgf_campaign_activity
+    - paragraphs.paragraphs_type.campaign_activity
+  module:
+    - plugin
+_core:
+  default_config_hash: 0SH_S1Strm7GCexyMFwMlWrjW572-xOrEXyV1y_xEe8
+id: paragraph.campaign_activity.default
+targetEntityType: paragraph
+bundle: campaign_activity
+mode: default
+content:
+  field_prgf_campaign_activity:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: plugin_block_built
+    region: content
+hidden: {  }

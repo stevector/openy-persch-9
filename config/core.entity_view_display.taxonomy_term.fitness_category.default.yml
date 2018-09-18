@@ -1,0 +1,33 @@
+uuid: 40755c31-2b65-4e2d-ba46-c51c723ebbb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.fitness_category.field_activity_icon
+    - taxonomy.vocabulary.fitness_category
+  module:
+    - openy_svg_formatter
+    - text
+_core:
+  default_config_hash: 2HgpvGyi-MyeQFtephDEBlKMW7GPWJs6Zmbjx8Wghys
+id: taxonomy_term.fitness_category.default
+targetEntityType: taxonomy_term
+bundle: fitness_category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_activity_icon:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: openy_svg_formatter
+    region: content
+hidden:
+  langcode: true

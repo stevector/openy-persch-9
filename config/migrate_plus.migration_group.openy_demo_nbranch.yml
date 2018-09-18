@@ -1,0 +1,14 @@
+uuid: 6f97e86f-64d6-49ce-8440-47b4465d68d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nbranch
+_core:
+  default_config_hash: j95HnA4XM5xS3JwAzfeLugLXukATj9y-ElJi4M4Nj3c
+id: openy_demo_nbranch
+label: Branch
+description: 'Imports branch demo content.'
+source_type: null
+module: openy_demo_nbranch
+shared_configuration: null

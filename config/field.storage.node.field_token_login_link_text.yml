@@ -1,0 +1,23 @@
+uuid: 94eb046f-3953-4251-b96b-00c0c68f5abf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: iP3cNv_7Uba32fzeMfsNC-0BW7o5LKyIsX9FfRS1ERA
+id: node.field_token_login_link_text
+field_name: field_token_login_link_text
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

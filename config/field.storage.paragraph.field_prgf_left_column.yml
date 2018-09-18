@@ -1,0 +1,32 @@
+uuid: ea8ae99c-b2dc-4a49-823b-e799385de644
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: zX1PPhb7RyMc1My0rgxDFTT2zu2XhBTcfccUBg6k37U
+id: paragraph.field_prgf_left_column
+field_name: field_prgf_left_column
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: field_prgf_activity_visits
+      label: 'Visit Tracking'
+    -
+      value: field_prgf_campaign_game
+      label: Game
+    -
+      value: field_enable_activities_counter
+      label: 'Activity count'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: 761866f5-b5fa-456a-9924-a23483b383f1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ump8craLVKAXlB2-zkvJt9PDIgJf8yI31cEiG19i-Y0
+name: 'News Category'
+vid: news_category
+description: 'News post categories.'
+hierarchy: 0
+weight: 0

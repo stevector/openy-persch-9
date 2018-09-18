@@ -1,0 +1,11 @@
+uuid: 5a83afd6-6759-44ff-9096-dc7de58a0a5c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: n0KVMw3doLc52AjYqy7ncOS5hIg3ErJBd9bCfuirtTM
+id: news_posts_listing
+label: 'News Posts Listing'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

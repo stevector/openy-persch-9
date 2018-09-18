@@ -1,0 +1,21 @@
+uuid: 09f954e5-6a78-4b25-9a1b-c417a3376611
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - plugin
+_core:
+  default_config_hash: uSXZrNgywsi63k86ibYwnYoGvm5zNEvFzjyilICUrrk
+id: paragraph.field_prgf_activity_visits
+field_name: field_prgf_activity_visits
+entity_type: paragraph
+type: 'plugin:block'
+settings: {  }
+module: plugin
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

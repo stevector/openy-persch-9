@@ -1,0 +1,59 @@
+uuid: 27b8387c-0154-48ce-90c9-b5a8aad0241d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.featured_highlights.field_prgf_block_ref_unlim
+    - field.field.paragraph.featured_highlights.field_prgf_grid_style
+    - field.field.paragraph.featured_highlights.field_prgf_title
+    - paragraphs.paragraphs_type.featured_highlights
+  module:
+    - content_moderation
+    - entity_browser_entity_form
+    - inline_entity_form
+_core:
+  default_config_hash: WoMfoaXVXxKjN8xEI-JB8hHQuNTQ_N7g05oRcVtsF0M
+id: paragraph.featured_highlights.default
+targetEntityType: paragraph
+bundle: featured_highlights
+mode: default
+content:
+  field_prgf_block_ref_unlim:
+    type: inline_entity_form_complex
+    weight: 2
+    region: content
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+  field_prgf_grid_style:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_prgf_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

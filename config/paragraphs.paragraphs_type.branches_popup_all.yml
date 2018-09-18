@@ -1,0 +1,11 @@
+uuid: 845419f8-7882-4dfc-99b4-0c801d50bc21
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: w7C6vYVh-krtgz2BeOrjKa4IBekUCtO5BYJWsinPzfI
+id: branches_popup_all
+label: 'Branches popup (All)'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

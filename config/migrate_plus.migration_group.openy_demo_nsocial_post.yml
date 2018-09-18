@@ -1,0 +1,14 @@
+uuid: da9e99a2-48f2-4939-bc7e-e0d0a109e304
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nsocial_post
+_core:
+  default_config_hash: 9k_AIxeG5D-goq8xuHIZnGIZAi9sAfNtzzSspeCs6WI
+id: openy_demo_nsocial_post
+label: 'Social Post'
+description: 'Imports social post demo content.'
+source_type: null
+module: openy_demo_nsocial_post
+shared_configuration: null

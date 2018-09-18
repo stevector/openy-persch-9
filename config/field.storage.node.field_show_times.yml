@@ -1,0 +1,22 @@
+uuid: 07e1c75e-a20b-4aa5-a7b6-119828a2aafd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: kERcAVtwxM3BkgJ5nUvZwIKwGcPQOREyUgjMuRiRXjk
+id: node.field_show_times
+field_name: field_show_times
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

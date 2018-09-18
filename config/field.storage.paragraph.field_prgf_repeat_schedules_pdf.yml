@@ -1,0 +1,21 @@
+uuid: 93c96fb4-d673-4fdc-aa43-d8679294be5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: G7xhwS3jrPqGOANX_eTG_ZDEzYMu3jvm65Hzzh8k7Uo
+id: paragraph.field_prgf_repeat_schedules_pdf
+field_name: field_prgf_repeat_schedules_pdf
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

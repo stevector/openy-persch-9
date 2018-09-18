@@ -1,0 +1,59 @@
+uuid: 7247034d-0942-45e5-8804-822074ec1a01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.secondary_description_sidebar.field_prgf_left_column_block
+    - field.field.paragraph.secondary_description_sidebar.field_prgf_right_column_block
+    - paragraphs.paragraphs_type.secondary_description_sidebar
+  module:
+    - content_moderation
+    - entity_browser_entity_form
+    - inline_entity_form
+_core:
+  default_config_hash: d8rmnHgCHBeroHNi8GADQSYdAlgkAevtMSgI9zm_Dw4
+id: paragraph.secondary_description_sidebar.default
+targetEntityType: paragraph
+bundle: secondary_description_sidebar
+mode: default
+content:
+  field_prgf_left_column_block:
+    weight: 0
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+    type: inline_entity_form_complex
+    region: content
+  field_prgf_right_column_block:
+    weight: 1
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+    type: inline_entity_form_complex
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

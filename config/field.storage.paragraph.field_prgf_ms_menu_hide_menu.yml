@@ -1,0 +1,20 @@
+uuid: 9268f233-9928-4c81-9639-3747875addbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: t7MqcoOcxKKbSN6LtZ7qAIYhc-6DMFQCp9PgLeNFzFY
+id: paragraph.field_prgf_ms_menu_hide_menu
+field_name: field_prgf_ms_menu_hide_menu
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

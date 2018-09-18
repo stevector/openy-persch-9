@@ -1,0 +1,23 @@
+uuid: eccf4a03-aaa2-47f2-88e0-809ef0d0ecd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_game_short_info
+    - node.type.campaign
+  module:
+    - text
+_core:
+  default_config_hash: a9D8_XlO2NIbDtjTynC94G5HWOsWccu07-8W0eP1Eys
+id: node.campaign.field_campaign_game_short_info
+field_name: field_campaign_game_short_info
+entity_type: node
+bundle: campaign
+label: 'Game Short Information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

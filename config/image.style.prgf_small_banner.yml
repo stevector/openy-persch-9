@@ -1,0 +1,19 @@
+uuid: 7e5cec2a-9b0c-4a11-a93d-9f4132e65060
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: _vi8n8ZDy5WE6EZooId7-Jxd2qWWpOg9L6myivCHrm4
+name: prgf_small_banner
+label: 'Paragraph small banner'
+effects:
+  469d9bb6-a9a1-46f7-80e2-1c21583458cd:
+    uuid: 469d9bb6-a9a1-46f7-80e2-1c21583458cd
+    id: focal_point_scale_and_crop
+    weight: 2
+    data:
+      width: 760
+      height: 400
+      crop_type: focal_point

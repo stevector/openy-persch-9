@@ -1,0 +1,11 @@
+uuid: 3906dc02-299d-469f-93f0-5884dedb7c07
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: V2Mj3lIBCuHGFtbTlAYJnE7KkGWBIJuiPG5WDYMgM54
+id: campaign_moderator
+label: 'Campaign moderator'
+weight: 5
+is_admin: null
+permissions: {  }

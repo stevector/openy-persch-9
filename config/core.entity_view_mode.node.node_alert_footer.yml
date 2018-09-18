@@ -1,0 +1,12 @@
+uuid: c45d9b76-7051-4dac-8422-94619f653094
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: D-2n_6pgYKEgwUop8v4DpO4AKrL7QzF5BGDLtyiTTo8
+id: node.node_alert_footer
+label: Footer
+targetEntityType: node
+cache: true

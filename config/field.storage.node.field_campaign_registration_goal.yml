@@ -1,0 +1,23 @@
+uuid: a59ed740-48c6-448f-a33b-bb49e53726e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: BLAgKhrcnx7-ZlErbPwKcUG3slQu_zGZfkHm1TgN6M4
+id: node.field_campaign_registration_goal
+field_name: field_campaign_registration_goal
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

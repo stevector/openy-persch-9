@@ -1,0 +1,30 @@
+uuid: c8611002-9bb8-4ad8-943b-eb90246bb698
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_tags
+    - media_entity.bundle.image
+    - taxonomy.vocabulary.media_tags
+_core:
+  default_config_hash: 1D9Ie7dhrxlOGeFaBhTj2IXHryuVdHgq2qIzLCln79I
+id: media.image.field_media_tags
+field_name: field_media_tags
+entity_type: media
+bundle: image
+label: 'Media Tags'
+description: 'Set tags for uploaded image.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_tags: media_tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

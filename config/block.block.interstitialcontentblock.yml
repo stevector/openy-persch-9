@@ -1,0 +1,22 @@
+uuid: 95d45d86-1496-436b-8174-17d0e7ee6872
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_interstitial
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: AcwSE_BH4WfYOQrOKcOup9Bke64sNveRGY5Fr0VeHfM
+id: interstitialcontentblock
+theme: openy_rose
+region: content
+weight: 0
+provider: null
+plugin: interstitial_content_block
+settings:
+  id: interstitial_content_block
+  label: 'Interstitial Content Block'
+  provider: openy_interstitial
+  label_display: '0'
+visibility: {  }

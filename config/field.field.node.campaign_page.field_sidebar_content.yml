@@ -1,0 +1,26 @@
+uuid: cd1ad155-2948-4223-a555-edd0745987e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sidebar_content
+    - node.type.campaign_page
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: pmh66SiX5yzVUueLZmL5KJA1x03weAi_HfmHtqjSnTY
+id: node.campaign_page.field_sidebar_content
+field_name: field_sidebar_content
+entity_type: node
+bundle: campaign_page
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+field_type: entity_reference_revisions

@@ -1,0 +1,11 @@
+uuid: 63422945-9cbf-43a7-a765-ca61da454981
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bcaJ0kCAEA-mwdzThLhoz5EJmKwB4duEz-aeLE6SF2w
+id: campaign_prizes
+label: 'Campaign Games Prizes'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

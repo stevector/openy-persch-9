@@ -1,0 +1,11 @@
+uuid: ae157a91-b8d5-4553-a831-88b9f972503a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hPmLCbAkp5-sQGh6fGOHcihqYFxqO1X7CLTlOKqFgsg
+id: campaign_winners
+label: 'Campaign winners'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

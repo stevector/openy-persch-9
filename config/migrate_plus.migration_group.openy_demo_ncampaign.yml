@@ -1,0 +1,10 @@
+uuid: 801547cd-2512-4ed4-b916-055e1a93d40d
+langcode: en
+status: true
+dependencies: {  }
+id: openy_demo_ncampaign
+label: openy_demo_ncampaign
+description: ''
+source_type: null
+module: null
+shared_configuration: null

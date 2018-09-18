@@ -1,0 +1,31 @@
+uuid: 0f0754f7-0978-458c-9bf0-53b965097d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_times
+    - node.type.interstitial_page
+  module:
+    - datalayer
+third_party_settings:
+  datalayer:
+    expose: 0
+    label: field_show_times
+_core:
+  default_config_hash: g6gFeHrXEx6LTAcb2L70DpUKuFl7a4PSDzgV3VRlbZw
+id: node.interstitial_page.field_show_times
+field_name: field_show_times
+entity_type: node
+bundle: interstitial_page
+label: 'Show maximum times'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: 'Dialog will be shown maximum'
+  suffix: times
+field_type: integer

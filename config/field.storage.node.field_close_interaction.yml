@@ -1,0 +1,20 @@
+uuid: 1ecc8920-11e4-4184-8c64-0596a23d6685
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: NXlC8s9JsAp_rCpZCiMAgXv9D1AdrTr5Pp5YCZIRUso
+id: node.field_close_interaction
+field_name: field_close_interaction
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

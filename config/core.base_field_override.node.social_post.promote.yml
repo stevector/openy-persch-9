@@ -1,0 +1,24 @@
+uuid: e215afca-b2da-43a7-9462-c2b0e0c902f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.social_post
+_core:
+  default_config_hash: UHkzGz4Y7Fi3ojhkwGA4qge5zyZSFjsg4dPrk90hyMw
+id: node.social_post.promote
+field_name: promote
+entity_type: node
+bundle: social_post
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

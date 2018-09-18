@@ -1,0 +1,54 @@
+uuid: 7fdfcaf5-b4aa-45eb-8883-2db7850011a7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_ncampaign
+_core:
+  default_config_hash: 1FITFrPl6r2f8dLRiJqbb4R2rV-o-araGR-OJVPTT-o
+id: openy_demo_lp_paragraph_campaign_winners
+migration_tags: {  }
+migration_group: openy_demo_ncampaign
+label: 'Create Campaign Winners paragraph for demo landing pages'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: challenge_yourself_campaign_winners
+      parent_id: challenge_yourself_completed
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration
+    migration: openy_demo_node_landing
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: node
+  field_prgf_campaign_winners/target_id:
+    plugin: default_value
+    default_value: campaign_winners_block
+  field_prgf_campaign_winners/target_revision_id:
+    plugin: default_value
+    default_value: campaign_winners_block
+  parent_field_name:
+    plugin: default_value
+    default_value: field_content
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: campaign_winners
+migration_dependencies: {  }

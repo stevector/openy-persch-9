@@ -1,0 +1,25 @@
+uuid: 764e2875-524d-4669-8427-1ceb346116ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_place
+    - paragraphs.paragraphs_type.campaign_winners_prizes
+_core:
+  default_config_hash: CHRuxxQv1anD6Bu898vTjyT6SqQRJayhiYaC_tVGUwk
+id: paragraph.campaign_winners_prizes.field_prgf_place
+field_name: field_prgf_place
+entity_type: paragraph
+bundle: campaign_winners_prizes
+label: Place
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,27 @@
+uuid: 1caf60a2-3bdb-45ed-9158-71c86d4c1c73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.openy_prgf_mbrshp_calc.field_prgf_block
+    - paragraphs.paragraphs_type.openy_prgf_mbrshp_calc
+  module:
+    - content_moderation
+_core:
+  default_config_hash: iinIW4jIY8ne0duoxpr5jo9trbBos6McdqpR8A2vWJE
+id: paragraph.openy_prgf_mbrshp_calc.default
+targetEntityType: paragraph
+bundle: openy_prgf_mbrshp_calc
+mode: default
+content:
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_prgf_block: true
+  status: true
+  uid: true

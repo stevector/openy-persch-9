@@ -1,0 +1,23 @@
+uuid: dd75a1f6-0360-43e3-8437-bc5950660cd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_utilization_activities
+    - node.type.campaign
+  module:
+    - options
+_core:
+  default_config_hash: eRL9IL8GO410pjPDddox5XXhJGHPCzpCL-r9QaLxf4Q
+id: node.campaign.field_utilization_activities
+field_name: field_utilization_activities
+entity_type: node
+bundle: campaign
+label: 'Utilization activities'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

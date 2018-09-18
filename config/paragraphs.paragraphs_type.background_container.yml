@@ -1,0 +1,11 @@
+uuid: a46256c8-27a1-48f7-817f-05a6834d1002
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gZbwkfSJZ_3Z058Rh8WLqJrUDFQtdGXXAJ87S7nxbhg
+id: background_container
+label: 'Background container'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

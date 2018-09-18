@@ -1,0 +1,22 @@
+uuid: 673799d6-d8aa-4c35-9d0c-82c778f5ffbc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: q5JPInBjeSMLB6pHahibJoXYkLlwELAP-AVt9x1jUlY
+id: node.field_min_visits_goal
+field_name: field_min_visits_goal
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

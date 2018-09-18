@@ -1,0 +1,14 @@
+uuid: 2be089d4-fcd7-4037-91e5-ed7cf5984097
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_bsimple
+_core:
+  default_config_hash: hdx3V1Zf3B8_7QjlKcKtfFHHAX4xEHON2-gOBVDHmNY
+id: openy_demo_simple_block
+label: Block
+description: 'Imports blocks that are being used in the Simple Content Component.'
+source_type: null
+module: openy_demo_bsimple
+shared_configuration: null

@@ -1,0 +1,33 @@
+uuid: bfa00d60-ce07-4b61-ae5e-2882949956d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.group_schedules.field_prgf_schedules_ref
+    - paragraphs.paragraphs_type.group_schedules
+  module:
+    - content_moderation
+    - plugin
+_core:
+  default_config_hash: wQN153zNUJl2jWi9YZOdt6O_xoYxIMZHYYekHA-ke4Y
+id: paragraph.group_schedules.default
+targetEntityType: paragraph
+bundle: group_schedules
+mode: default
+content:
+  field_prgf_schedules_ref:
+    type: 'plugin_selector:plugin_autocomplete_list'
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

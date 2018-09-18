@@ -1,0 +1,10 @@
+uuid: e0054689-d380-4cca-a31e-81858a762af6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _NGuVT2KVk0Qf47jIHo4_uhTnQRKsxLqhWIkCnU3n4k
+id: campaign-footer-menu
+label: 'Campaign footer menu'
+description: ''
+locked: false

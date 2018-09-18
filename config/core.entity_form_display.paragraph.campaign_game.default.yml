@@ -1,0 +1,33 @@
+uuid: b7499a5e-ff92-44c5-967c-c5b9aa5e7414
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_game.field_prgf_campaign_game
+    - paragraphs.paragraphs_type.campaign_game
+  module:
+    - content_moderation
+    - plugin
+_core:
+  default_config_hash: x9bPAi1gr1f_b0dl7eSx3kSPRP8-1t6spply_MDbBXM
+id: paragraph.campaign_game.default
+targetEntityType: paragraph
+bundle: campaign_game
+mode: default
+content:
+  field_prgf_campaign_game:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: 'plugin_selector:plugin_select_list'
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

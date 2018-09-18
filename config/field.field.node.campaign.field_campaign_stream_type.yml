@@ -1,0 +1,25 @@
+uuid: ed06a92f-d643-4442-8605-04ef6c17c008
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_stream_type
+    - node.type.campaign
+  module:
+    - options
+_core:
+  default_config_hash: y3L_v3Z67Xxr9_WiKjOKKZ2iC3DssKh39uuatAs_rog
+id: node.campaign.field_campaign_stream_type
+field_name: field_campaign_stream_type
+entity_type: node
+bundle: campaign
+label: 'Winner Stream Type'
+description: 'Choose "- None -" to hide Winners Stream'
+required: false
+translatable: false
+default_value:
+  -
+    value: all
+default_value_callback: ''
+settings: {  }
+field_type: list_string
